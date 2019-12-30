@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string name="title_system_update">Azhurimi i sistemit</string>
+<string name="title_local_update">Azhurimi i vendndodhjes</string>
+<string name="title_remote_update">Azhurimi i rrjetit</string>
+<string name="title_install_reboot">Instalo</string>
+<string name="title_nospace_notify">Hapësirë e pamjaftueshme e memories</string>
+<string name="title_remote_notify">Zbuloni paketën për azhurimin e rrjetit</string>
+<string name="title_local_notify">Paketa për azhurim të vendndodhjes u gjet</string>
+<string name="tip_local_hasfile">Zbuloni paketën për azhurimin e vendndodhjes, a doni ta azhuroni tani?</string>
+<string name="tip_local_nofile">Paketa për azhurimin e vendndodhjes nuk u gjet. Lutemi të fusni update.zip në drejtorin rrënjë të pajisjes USB!</string>
+<string name="tip_force_update">Sistemi do të fillojë që të azhurohet pas %1$d sekondash, luutemi të mos e fikni pajisjen!</string>
+<string name="tip_update_verifying">Paketa e azhurimit po verifikohet, lutemi të mos e fikni pajisjen!</string>
+<string name="tip_update_verify_stop">Verifikimi i paketës së azhurimit ka ndaluar!</string>
+<string name="tip_update_verify_success">Verifikimi i paketës së azhurimit mbaroi, tani instaloje!</string>
+<string name="tip_update_verify_fail">Vërejtje: Verifikimi i paketës së azhurimit dështoi, lutemi të konfirmoni nëse paketa e azhurimit përputhet me sistemin momental!</string>
+<string name="tip_update_checking">Duke kërkuar azhurime....</string>
+<string name="tip_update_check_fail">Kërkimi i azhurimeve dështoi!</string>
+<string name="tip_update_version_latest">Sistemi aktual është versioni i fundit!</string>
+<string name="tip_downloaded">U shkarkua: </string>
+<string name="tip_download_pause">Shkarkimi është ndaluar: </string>
+<string name="tip_download_fail">Shkarkimi i paketës së azhurimit dështoi....</string>
+<string name="tip_download_stop">Shkarkimi është ndaluar....</string>
+<string name="tip_download_success">Paketa e azhurimit u shkarkua. A doni ta azhuroni tani? Mos e fik pajisjen gjatë procesit të azhurimit!</string>
+<string name="tip_update_nospace">Madhësia e fajlit të azhurimit është %1$s dhe pjesa e lirë e memories së brendshme është %2$s !</string>
+<string name="tip_update_result_success">Urime për azhurimin!</string>
+<string name="tip_update_result_failed">Fatkeqësisht azhurimi dështoi!</string>
+<string name="tip_remote_find_newversion">U gjet një version i ri!</string>
+<string name="tip_update_zip_path">Udha e paketës së azhurimit: </string>
+<string name="tip_update_zip_length">Madhësia e paketës së azhurimit: </string>
+<string name="tip_update_zip_version">Versioni i paketës së azhurimit: </string>
+<string name="tip_system_version">Versioni momental: </string>
+<string name="tip_system_builddate">Data e prodhimit: </string>
+<string name="str_btn_update_now">Azhurimi</string>
+<string name="str_btn_update_cancel">Anullo</string>
+<string name="str_btn_update_notyet">Mbylle</string>
+<string name="str_btn_verify_cancle">Anulloje</string>
+<string name="str_btn_verify_again">Verifikoje përsëri</string>
+<string name="str_btn_check_again">Testoje përsëri</string>
+<string name="str_btn_download_begin">Fillo</string>
+<string name="str_btn_download_pause">Ndalo</string>
+<string name="str_btn_download_goon">Vazhdo</string>
+<string name="str_btn_download_again">Përsëri</string>
+<string name="str_btn_download_bg">Auto</string>
+<string name="str_btn_close">Mbylle</string>
+<string name="str_storage_default">Disk i heqshëm</string>
+</resources>

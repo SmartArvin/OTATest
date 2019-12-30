@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- title information -->
+    <string name="title_system_update">Nadogradnja sistema</string>
+    <string name="title_local_update">Lokalna nadogradnja</string>
+    <string name="title_remote_update">Nadogradnja mreže</string>
+    <string name="title_install_reboot">Instalirajte</string>
+    <string name="title_nospace_notify">Nema dovoljno prostora</string>
+    <string name="title_remote_notify">Otkrijte paketa sa nadogradnjom mreže</string>
+    <string name="title_local_notify">Pronaći lokalni paket za nadogradnju</string>
+
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Otkriti lokalne nadogradnje paketa, želite li sada nadograditi?</string>
+    <string name="tip_local_nofile">Lokalne nadogradnje paket nije pronađen. Molim vas, stavite u update.zip u korijenskom direktoriju USB uređaja!</string>
+    <string name="tip_force_update">Sistem će početi da nadogradite nakon %1$d sekundi, molim vas nemojte isključiti struju!</string>
+    
+    <string name="tip_update_verifying">Paket sa nadogradnjom se proverava, molim vas nemojte isključiti struju!</string>
+    <string name="tip_update_verify_stop">Paketa sa nadogradnjom verifikacije je zaustavljeno!</string>
+    <string name="tip_update_verify_success">Paketa sa nadogradnjom potvrde identiteta ne dovrši, a zatim će instalirati!</string>
+    <string name="tip_update_verify_fail">Upozorenje: nadogradite paket verifikacija nije uspeo, molimo vas da potvrdite da li je paket sa nadogradnjom odgovara sadašnjem sistemu!</string>
+    <string name="tip_update_checking">Provera ispravki...</string>
+    <string name="tip_update_check_fail">Tekući ažuriranje neuspeh!</string>
+    <string name="tip_update_version_latest">Je trenutno najnovija verzija!</string>
+    
+    <string name="tip_downloaded">Preuzeta: </string>
+    <string name="tip_download_pause">Je pauziran download: </string>
+    <string name="tip_download_fail">Nadogradite paket preuzimanje nije uspelo...</string>
+    <string name="tip_download_stop">Preuzimanje je bilo prestalo...</string>
+    <string name="tip_download_success">paket sa nadogradnjom. Ti hoćeš da nadogradi sada Ne napaja se tokom procesa nadogradnje!</string>
+    
+    <string name="tip_update_nospace">Veličina nadogradnje datoteke %1$s i interna skladištenja slobodnog prostora je %2$s!</string>
+    
+    <string name="tip_update_result_success">Čestitam na nadogradnju!</string>
+    <string name="tip_update_result_failed">Izvini nadogradnja nije uspelo!</string>
+    
+    <string name="tip_remote_find_newversion">Nova verzija nađeno!</string>
+    
+    <string name="tip_update_zip_path">Putanja paketa sa nadogradnjom: </string>
+    <string name="tip_update_zip_length">Upgrade paket veličine: </string>
+    <string name="tip_update_zip_version">Verzija nadogradnje paketa: </string>
+    
+    <string name="tip_system_version">Trenutnu verziju: </string>
+    <string name="tip_system_builddate">Napravi datum: </string>
+
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Nadogradnja</string>
+    <string name="str_btn_update_cancel">Otkazivanje</string>
+    <string name="str_btn_update_notyet">Zaborave na</string>
+    
+    <string name="str_btn_verify_cancle">Otkazivanje</string>
+    <string name="str_btn_verify_again">Ponovo Provjerite</string>
+    
+    <string name="str_btn_check_again">Ponovo testirajte</string>
+    
+    <string name="str_btn_download_begin">Pokretanje</string>
+    <string name="str_btn_download_pause">Pauziraj</string>
+    <string name="str_btn_download_goon">Nastavite</string>
+    <string name="str_btn_download_again">Ponovo</string>
+    <string name="str_btn_download_bg">Auto</string>
+    
+    <string name="str_btn_close">Blizu</string>
+
+    <!-- other info -->
+    <string name="str_storage_default">Prenosivi Disk</string>
+    <string name="str_inner_storage">Interna skladištenja</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Aggiornamento del sistema</string>
+    <string name="title_local_update">Aggiornamento locale</string>
+    <string name="title_remote_update">Aggiornamento rete</string>
+    <string name="title_install_reboot">Installa</string>
+    <string name="title_nospace_notify">Spazio di archiviazione insufficiente</string>
+    <string name="title_remote_notify">Scopri pacchetto di aggiornamento di rete</string>
+    <string name="title_local_notify">Trovato pacchetto di aggiornamento locale</string>
+    
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Scopri il pacchetto di aggiornamento locale, vuoi eseguire l\'upgrade adesso?</string>
+    <string name="tip_local_nofile">Il pacchetto di aggiornamento locale non è stato trovato. Si prega di inserire update.zip nella directory root del dispositivo USB!</string>
+    <string name="tip_force_update">Il sistema inizierà l\'aggiornamento dopo %1$d secondi, per favore non spegnere la corrente!</string>
+    
+    <string name="tip_update_verifying">Il pacchetto di aggiornamento è in fase di verifica, per favore non spegnere la macchina!</string>
+    <string name="tip_update_verify_stop">La verifica del pacchetto di aggiornamento è stata interrotta!</string>
+    <string name="tip_update_verify_success">La verifica del pacchetto di aggiornamento è completa, quindi verrà installata!</string>
+    <string name="tip_update_verify_fail">Attenzione: la verifica del pacchetto di aggiornamento non è riuscita, si prega di confermare se il pacchetto di aggiornamento corrisponde al sistema corrente!</string>
+    
+    <string name="tip_update_checking">Verifica degli aggiornamenti ....</string>
+    <string name="tip_update_check_fail">Verifica dell\'aggiornamento fallito!</string>
+    <string name="tip_update_version_latest">è attualmente l\'ultima versione!</string>
+    
+    <string name="tip_downloaded">scaricato: </string>
+    <string name="tip_download_pause">Il download è stato sospeso: </string>
+    <string name="tip_download_fail">Aggiornamento del download del pacchetto non riuscito ....</string>
+    <string name="tip_download_stop">Il download è stato interrotto ....</string>
+    <string name="tip_download_success">Il pacchetto di aggiornamento è stato scaricato. Vuoi aggiornare ora? Non spegnere durante il processo di aggiornamento!</string>
+    
+    <string name="tip_update_nospace">L\'aggiornamento delle dimensioni del file è %1$s se lo spazio libero di archiviazione interno è %2$s!</string>
+    
+    <string name="tip_update_result_success">Congratulazioni per l\'aggiornamento!</string>
+    <string name="tip_update_result_failed">Spiacenti aggiornamento fallito!</string>
+    
+    <string name="tip_remote_find_newversion">Trovato nuova versione!</string>
+    <string name="tip_update_zip_path">Aggiorna percorso pacchetto: </string>
+    <string name="tip_update_zip_length">Aggiorna la dimensione del pacchetto: </string>
+    <string name="tip_update_zip_version">Aggiorna la versione del pacchetto: </string>
+    
+    <string name="tip_system_version">Versione corrente: </string>
+    <string name="tip_system_builddate">Build date: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Aggiorna</string>
+    <string name="str_btn_update_cancel">Annulla</string>
+    <string name="str_btn_update_notyet">Smettere</string>
+    
+    <string name="str_btn_verify_cancle">Annulla</string>
+    <string name="str_btn_verify_again">Nuova verifica</string>
+    <string name="str_btn_check_again">Retest</string>
+    
+    <string name="str_btn_download_begin">Inizio</string>
+    <string name="str_btn_download_pause">Pausa</string>
+    <string name="str_btn_download_goon">Continua</string>
+    <string name="str_btn_download_again">Again</string>
+    <string name="str_btn_download_bg">Auto</string>
+    
+    <string name="str_btn_close">Chiudi</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Disco rimovibile</string>
+    <string name="str_inner_storage">Archiviazione interna</string>
+    
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">Sistēmas atjaunināšana</string>
+    <string name="title_local_update">Vietējā atjaunināšana</string>
+    <string name="title_remote_update">Tīkla atjaunināšana</string>
+    <string name="title_install_reboot">Instalējiet jauninājumu</string>
+    <string name="title_nospace_notify">Nepietiekama atmiņas telpa</string>
+    <string name="title_remote_notify">Atklājiet tīkla jaunināšanas pakotni</string>
+    <string name="title_local_notify">Atrasta vietējā jaunināšanas pakotne</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Atklājiet vietējā jaunināšanas paketi, vai vēlaties to jaunināt?</string>
+    <string name="tip_local_nofile">Vietējā jaunināšanas pakotne nav atrasta. Lūdzu, ievietojiet jaunināšanas paketi update.zip USB ierīces saknes direktorijā!</string>
+    <string name="tip_force_update">Sistēma sāks jaunināšanu pēc %1$d sekundēm, lūdzu, neizslēdziet strāvu!</string>
+    
+    <string name="tip_update_verifying">Jaunināšanas pakotne tiek pārbaudīta, lūdzu, neizslēdziet strāvu!</string>
+    <string name="tip_update_verify_stop">Jaunināšanas pakotnes verifikācija ir pārtraukta!</string>
+    <string name="tip_update_verify_success">Jaunināšanas pakotnes verifikācija ir pabeigta, jauninājums sāksies!</string>
+    
+    <string name="tip_update_verify_fail">Brīdinājums: programmatūras jaunināšanas pakotnes verifikācija neizdevās, lūdzu, apstipriniet, vai jaunināšanas pakotne atbilst pašreizējai programmatūras sistēmai!</string>
+    
+    <string name="tip_update_checking">Atklāj atjauninājumus ....</string>
+    <string name="tip_update_check_fail">Atjaunināšanas kļūdas atklāšana!</string>
+    
+    <string name="tip_update_version_latest">Pašlaik ir jaunākā versija.</string>
+    
+    <string name="tip_downloaded">Lejupielādēts: </string>
+    <string name="tip_download_pause">Lejupielāde ir apturēta: </string>
+    <string name="tip_download_fail">Jaunināšanas paketes lejupielāde neizdevās ....</string>
+    <string name="tip_download_stop">Lejupielāde ir pārtraukta ....</string>
+    <string name="tip_download_success">Jaunināšanas pakotne ir lejupielādēta. Vai vēlaties tagad jaunināt? Jaunināšanas procesa laikā neizslēdziet!</string>
+    
+    <string name="tip_update_nospace">Jaunināšanas faila lielums ir %1$s, un iekšējā atmiņas brīvā vieta ir %2$s!</string>
+    <string name="tip_update_result_success">Apsveicam ar jaunināšanu!</string>
+    <string name="tip_update_result_failed">Atvainojiet jaunināšanu neizdevās!</string>
+    
+    <string name="tip_remote_find_newversion">Atrada jaunu versiju!</string>
+    <string name="tip_update_zip_path">Jaunināšanas pakotnes ceļš: </string>
+    <string name="tip_update_zip_length">Jaunināt paketes lielumu: </string>
+    <string name="tip_update_zip_version">Jaunināšanas pakotnes versija: </string>
+    
+    <string name="tip_system_version">Pašreizējā versija: </string>
+    <string name="tip_system_builddate">Izlaišanas laiks: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Jauniniet tagad</string>
+    <string name="str_btn_update_cancel">Atcelt jaunināšanu</string>
+    <string name="str_btn_update_notyet">Nav atjaunināts</string>
+    
+    <string name="str_btn_verify_cancle">Atcelt verifikāciju</string>
+    <string name="str_btn_verify_again">Atkārtoti pārbaudiet</string>
+    <string name="str_btn_check_again">Pārbaudīt atkārtoti</string>
+    
+    <string name="str_btn_download_begin">Sākt lejupielādi</string>
+    <string name="str_btn_download_pause">Pārtraukt lejupielādi</string>
+    <string name="str_btn_download_goon">Turpināt lejupielādēt</string>
+    <string name="str_btn_download_again">Atkārtoti lejupielādēt</string>
+    <string name="str_btn_download_bg">Atslēgu lejupielāde</string>
+    
+    <string name="str_btn_close">Aizvērt</string>
+    
+    
+    <!-- other info -->
+    <string name="str_storage_default">Noņemams disks</string>
+    <string name="str_inner_storage">Iekšējā atmiņa</string>
+    
+    
+</resources>

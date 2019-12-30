@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">Αναβάθμιση συστήματος</string>
+    <string name="title_local_update">Τοπική αναβάθμιση</string>
+    <string name="title_remote_update">Αναβάθμιση δικτύου</string>
+    <string name="title_install_reboot">Εγκατάσταση</string>
+    <string name="title_nospace_notify">Ανεπαρκής αποθηκευτικός χώρος</string>
+    <string name="title_remote_notify">Ανακαλύψτε το πακέτο αναβάθμισης δικτύου</string>
+    <string name="title_local_notify">Βρέθηκε τοπικό πακέτο αναβάθμισης</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Ανακαλύψτε το τοπικό πακέτο αναβάθμισης, θέλετε να αναβαθμίσετε τώρα;</string>
+    <string name="tip_local_nofile">Το τοπικό πακέτο αναβάθμισης δεν βρέθηκε. Τοποθετήστε το update.zip στον ριζικό κατάλογο της συσκευής USB!</string>
+    <string name="tip_force_update">Το σύστημα θα ξεκινήσει να αναβαθμίζεται μετά από %1$d δευτερόλεπτα, παρακαλούμε να μην απενεργοποιήσετε την εξουσία!</string>
+    
+    <string name="tip_update_verifying">Το πακέτο αναβάθμισης επαληθεύεται, παρακαλούμε να μην απενεργοποιήσετε την ενέργεια!</string>
+    <string name="tip_update_verify_stop">Η επαλήθευση του πακέτου αναβάθμισης έχει σταματήσει!</string>
+    <string name="tip_update_verify_success">Η επαλήθευση του πακέτου αναβάθμισης ολοκληρώθηκε και στη συνέχεια θα εγκατασταθεί!</string>
+    <string name="tip_update_verify_fail">Προειδοποίηση: Η επαλήθευση του πακέτου αναβάθμισης απέτυχε, επιβεβαιώστε αν το πακέτο αναβάθμισης ταιριάζει με το τρέχον σύστημα!</string>
+    
+    <string name="tip_update_checking">Έλεγχος ενημερώσεων....</string>
+    <string name="tip_update_check_fail">Έλεγχος αποτυχίας ενημέρωσης!</string>
+    <string name="tip_update_version_latest">Αυτήν τη στιγμή είναι η τελευταία έκδοση!</string>
+    
+    <string name="tip_downloaded">Λήψη: </string>
+    <string name="tip_download_pause">Η λήψη έχει τεθεί σε παύση: </string>
+    <string name="tip_download_fail">Η λήψη πακέτου αναβάθμισης απέτυχε....</string>
+    <string name="tip_download_stop">Η λήψη έχει σταματήσει....</string>
+    <string name="tip_download_success">Το πακέτο αναβάθμισης έχει μεταφορτωθεί. Θέλετε να κάνετε αναβάθμιση τώρα; Μην απενεργοποιείτε τη διαδικασία αναβάθμισης!</string>
+    
+    <string name="tip_update_nospace">Το μέγεθος του αρχείου αναβάθμισης είναι %1$s και ο εσωτερικός αποθηκευτικός χώρος είναι %2$s!</string>
+    
+    <string name="tip_update_result_success">Συγχαρητήρια για την αναβάθμιση!</string>
+    <string name="tip_update_result_failed">Η αναβάθμιση αποτυχία!</string>
+    
+    <string name="tip_remote_find_newversion">Βρέθηκε νέα έκδοση!</string>
+    <string name="tip_update_zip_path">Διαδρομή πακέτου αναβάθμισης: </string>
+    <string name="tip_update_zip_length">Αναβαθμίστε το μέγεθος του πακέτου: </string>
+    <string name="tip_update_zip_version">Αναβάθμιση έκδοση πακέτου: </string>
+    
+    <string name="tip_system_version">Τρέχουσα έκδοση: </string>
+    <string name="tip_system_builddate">Ημερομηνία κατασκευής: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Αναβάθμιση</string>
+    <string name="str_btn_update_cancel">Ακύρωση</string>
+    <string name="str_btn_update_notyet">Απαγόρευση</string>
+    
+    <string name="str_btn_verify_cancle">Ακύρωση</string>
+    <string name="str_btn_verify_again">Επανεξέταση</string>
+    <string name="str_btn_check_again">Επανέλεγχος</string>
+    
+    <string name="str_btn_download_begin">Έναρξη</string>
+    <string name="str_btn_download_pause">Παύση</string>
+    <string name="str_btn_download_goon">Συνέχεια</string>
+    <string name="str_btn_download_again">Και πάλι</string>
+    <string name="str_btn_download_bg">Αυτόματο</string>
+    
+    <string name="str_btn_close">Κλείσιμο</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Αφαιρούμενος δίσκος</string>
+    <string name="str_inner_storage">Εσωτερική αποθήκευση</string>
+    
+    
+</resources>

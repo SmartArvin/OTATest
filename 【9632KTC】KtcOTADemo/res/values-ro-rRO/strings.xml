@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Upgrade sistem</string>
+    <string name="title_local_update">Upgrade local</string>
+    <string name="title_remote_update">Upgrade de rețea</string>
+    <string name="title_install_reboot">instalare upgrade</string>
+    <string name="title_nospace_notify">Spațiu de stocare insuficient</string>
+    <string name="title_remote_notify">Descoperiți pachetul de actualizare în rețea</string>
+    <string name="title_local_notify">găsit pachetul de actualizare locală</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Descoperiți pachetul de actualizare locală, doriți să faceți upgrade acum?</string>
+    <string name="tip_local_nofile">Pachetul de actualizare local nu a fost găsit. Puneți pachetul de actualizare update.zip în directorul rădăcină al dispozitivului USB!</string>
+    <string name="tip_force_update">Sistemul va porni upgrade-ul după %1$d secunde, vă rugăm să nu opriți alimentarea!</string>
+    
+    <string name="tip_update_verifying">Pachetul de upgrade este verificat, vă rugăm să nu opriți alimentarea!</string>
+    <string name="tip_update_verify_stop">Verificarea pachetelor de upgrade a fost oprită!</string>
+    <string name="tip_update_verify_success">Verificarea pachetului de upgrade este finalizată, actualizarea va începe!</string>
+    
+    <string name="tip_update_verify_fail">Avertisment: Verificarea pachetelor de actualizare software a eșuat, confirmați dacă pachetul de actualizare se potrivește cu sistemul software actual!</string>
+    
+    <string name="tip_update_checking">detectează actualizările ....</string>
+    <string name="tip_update_check_fail">Detectarea erorii de actualizare!</string>
+    
+    <string name="tip_update_version_latest">este în prezent cea mai recentă versiune!</string>
+    
+    <string name="tip_downloaded">Descărcat: </string>
+    <string name="tip_download_pause">Descărcarea a fost suspendată: </string>
+    <string name="tip_download_fail">Descărcarea pachetului de upgrade a eșuat ....</string>
+    <string name="tip_download_stop">Descărcarea a fost terminată ....</string>
+    <string name="tip_download_success">Pachetul de upgrade a fost descărcat. Doriți să faceți upgrade acum? Nu vă opriți în timpul procesului de actualizare!</string>
+    
+    <string name="tip_update_nospace">Dimensiunea fișierului de upgrade este %1$s, iar spațiul de stocare intern este de %2$s!</string>
+    <string name="tip_update_result_success">Felicitări pentru upgrade!</string>
+    <string name="tip_update_result_failed">Ne pare rău că actualizarea a eșuat!</string>
+    
+    <string name="tip_remote_find_newversion">S-a găsit o nouă versiune!</string>
+    <string name="tip_update_zip_path">Calea de upgrade a pachetului: </string>
+    <string name="tip_update_zip_length">Dimensiunea pachetului de upgrade: </string>
+    <string name="tip_update_zip_version">Versiunea pachetului de upgrade: </string>
+    
+    <string name="tip_system_version">Versiunea curentă: </string>
+    <string name="tip_system_builddate">Timpul de eliberare: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Actualizați acum</string>
+    <string name="str_btn_update_cancel">Anulați actualizarea</string>
+    <string name="str_btn_update_notyet">Nu a fost actualizat</string>
+    
+    <string name="str_btn_verify_cancle">Anulați verificarea</string>
+    <string name="str_btn_verify_again">Re-verificați</string>
+    <string name="str_btn_check_again">Retest</string>
+    
+    <string name="str_btn_download_begin">Începeți descărcarea</string>
+    <string name="str_btn_download_pause">Suspendare descărcare</string>
+    <string name="str_btn_download_goon">Continuați să descărcați</string>
+    <string name="str_btn_download_again">Re-descărcați</string>
+    <string name="str_btn_download_bg">Descărcare backstage</string>
+    
+    <string name="str_btn_close">închide</string>
+    
+    
+    <!-- other info -->
+    <string name="str_storage_default">Disc amovibil</string>
+    <string name="str_inner_storage">Stocare internă</string>
+    
+    
+</resources>

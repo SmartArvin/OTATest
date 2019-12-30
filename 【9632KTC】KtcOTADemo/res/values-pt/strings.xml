@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">Atualização do Sistema</string>
+    <string name="title_local_update">Atualização local</string>
+    <string name="title_remote_update">Atualização de Rede</string>
+    <string name="title_install_reboot">Instalar</string>
+    <string name="title_nospace_notify">Espaço de armazenamento insuficiente</string>
+    <string name="title_remote_notify">Descubra o pacote de upgrade de rede</string>
+    <string name="title_local_notify">Pacote de atualização local encontrado</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Descubra o pacote de upgrade local, deseja atualizar agora?</string>
+    <string name="tip_local_nofile">O pacote de atualização local não foi encontrado. Por favor coloque o update.zip no diretório raiz do dispositivo USB!</string>
+    <string name="tip_force_update">O sistema começará a atualizar após %1$d segundos, por favor, não desligue a energia!</string>
+    
+    <string name="tip_update_verifying">O pacote de atualização está sendo verificado, por favor, não desligue a energia!</string>
+    <string name="tip_update_verify_stop">A verificação do pacote de atualização parou!</string>
+    <string name="tip_update_verify_success">A verificação do pacote de atualização está completa e, em seguida, será instalada!</string>
+    <string name="tip_update_verify_fail">Aviso: Falha na verificação do pacote de atualização, confirme se o pacote de upgrade corresponde ao sistema atual!</string>
+    
+    <string name="tip_update_checking">Verificando atualizações ....</string>
+    <string name="tip_update_check_fail">Verificando a falha da atualização!</string>
+    <string name="tip_update_version_latest">Atualmente é a última versão!</string>
+    
+    <string name="tip_downloaded">Transferido: </string>
+    <string name="tip_download_pause">O download foi pausado: </string>
+    <string name="tip_download_fail">Falha no download do pacote de atualização ....</string>
+    <string name="tip_download_stop">O download foi interrompido ....</string>
+    <string name="tip_download_success">O pacote de atualização foi baixado. Você quer atualizar agora? Não desligue durante o processo de atualização!</string>
+    
+    <string name="tip_update_nospace">O tamanho do arquivo de atualização é %1$s e o espaço livre do armazenamento interno é %2$s!</string>
+    
+    <string name="tip_update_result_success">Parabéns pela atualização!</string>
+    <string name="tip_update_result_failed">Desculpe falha na atualização!</string>
+    
+    <string name="tip_remote_find_newversion">Encontrada nova versão!</string>
+    <string name="tip_update_zip_path">Atualizar caminho do pacote: </string>
+    <string name="tip_update_zip_length">Atualizar tamanho do pacote: </string>
+    <string name="tip_update_zip_version">Atualizar versão do pacote: </string>
+    
+    <string name="tip_system_version">Versão atual: </string>
+    <string name="tip_system_builddate">Data de compilação: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Atualizar</string>
+    <string name="str_btn_update_cancel">Cancelar</string>
+    <string name="str_btn_update_notyet">Desistir</string>
+    
+    <string name="str_btn_verify_cancle">Cancelar</string>
+    <string name="str_btn_verify_again">Verificar novamente</string>
+    <string name="str_btn_check_again">Reteste</string>
+    
+    <string name="str_btn_download_begin">Iniciar</string>
+    <string name="str_btn_download_pause">Pausa</string>
+    <string name="str_btn_download_goon">Continuar</string>
+    <string name="str_btn_download_again">Novamente</string>
+    <string name="str_btn_download_bg">Auto</string>
+    
+    <string name="str_btn_close">Fechar</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Disco Removível</string>
+    <string name="str_inner_storage">Armazenamento Interno</string>
+
+</resources>

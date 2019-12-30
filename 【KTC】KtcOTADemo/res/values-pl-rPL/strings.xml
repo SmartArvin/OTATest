@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">Aktualizacja Systemu</string>
+    <string name="title_local_update">Aktualizacja Lokalna</string>
+    <string name="title_remote_update">Aktualizacja Sieci</string>
+    <string name="title_install_reboot">Zainstalować</string>
+    <string name="title_nospace_notify">Niewystarczająca ilość miejsca</string>
+    <string name="title_remote_notify">Odkryj pakiet aktualizacji sieci</string>
+    <string name="title_local_notify">Znaleziono lokalny pakiet aktualizacji</string>
+    
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Odkryj lokalny pakiet aktualizacji, czy chcesz teraz uaktualnić?</string>
+    <string name="tip_local_nofile">Lokalny pakiet aktualizacji nie został znaleziony. Umieść pakiet aktualizacji update.zip w katalogu głównym urządzenia USB!</string>
+    <string name="tip_force_update">System rozpocznie aktualizację po %1$d sekundach, proszę nie wyłączać zasilania!</string>
+    
+    <string name="tip_update_verifying">Pakiet aktualizacyjny jest weryfikowany, nie wyłączaj zasilania!</string>
+    <string name="tip_update_verify_stop">Weryfikacja pakietu aktualizacji została zatrzymana!</string>
+    <string name="tip_update_verify_success">Zakończono weryfikację pakietu uaktualnień, rozpocznie się aktualizacja!</string>
+    <string name="tip_update_verify_fail">Ostrzeżenie: Weryfikacja pakietu aktualizacji oprogramowania nie powiodła się. Potwierdź, czy pakiet aktualizacji jest zgodny z obecnym systemem oprogramowania!</string>
+    
+    <string name="tip_update_checking">Wykrywa aktualizacje ....</string>
+    <string name="tip_update_check_fail">Wykrywanie niepowodzenia aktualizacji!</string>
+    <string name="tip_update_version_latest">Jest obecnie najnowszą wersją!</string>
+    
+    <string name="tip_downloaded">Pobrano: </string>
+    <string name="tip_download_pause">Pobieranie zostało zawieszone: </string>
+    <string name="tip_download_fail">Pobieranie pakietu aktualizacji nie powiodło się ....</string>
+    <string name="tip_download_stop">Pobieranie zostało zakończone ....</string>
+    <string name="tip_download_success">Pakiet aktualizacji został pobrany. Czy chcesz teraz uaktualnić? Nie wyłączaj podczas procesu aktualizacji!</string>
+    
+    <string name="tip_update_nospace">Rozmiar pliku aktualizacji wynosi %1$s, a ilość wolnego miejsca w pamięci wewnętrznej wynosi %2$s!</string>
+    <string name="tip_update_result_success">Gratulacje z powodu aktualizacji!</string>
+    <string name="tip_update_result_failed">Niestety aktualizacja nie powiodła się!</string>
+    
+    <string name="tip_remote_find_newversion">Znaleziono nową wersję!</string>
+    <string name="tip_update_zip_path">Aktualizacja ścieżki pakietu:</string>
+    <string name="tip_update_zip_length">Uaktualnij rozmiar pakietu:</string>
+    <string name="tip_update_zip_version">Uaktualnij wersję pakietu:</string>
+    
+    <string name="tip_system_version">Aktualna Wersja:</string>
+    <string name="tip_system_builddate">Czas Wydania:</string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Aktualizacja</string>
+    <string name="str_btn_update_cancel">Anuluj</string>
+    <string name="str_btn_update_notyet">Blisko</string>
+    
+    <string name="str_btn_verify_cancle">Anuluj</string>
+    <string name="str_btn_verify_again">Znowu</string>
+    <string name="str_btn_check_again">Znowu</string>
+    
+    <string name="str_btn_download_begin">Początek</string>
+    <string name="str_btn_download_pause">Pauza</string>
+    <string name="str_btn_download_goon">Kontynuuj</string>
+    <string name="str_btn_download_again">Znowu</string>
+    <string name="str_btn_download_bg">Automatyczny</string>
+    
+    <string name="str_btn_close">Blisko</string>
+    
+    
+    <!-- other info -->
+    <string name="str_storage_default">Dysk wymienny</string>
+    <string name="str_inner_storage">Pamięć wewnętrzna</string>
+    
+    
+    </resources>

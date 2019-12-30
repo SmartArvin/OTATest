@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Nâng cấp hệ thống</string>
+    <string name="title_local_update">Nâng cấp cục bộ</string>
+    <string name="title_remote_update">Nâng cấp mạng</string>
+    <string name="title_install_reboot">Cài đặt</string>
+    <string name="title_nospace_notify">Dung lượng lưu trữ không đủ</string>
+    <string name="title_remote_notify">Khám phá gói nâng cấp mạng</string>
+    <string name="title_local_notify">Đã tìm thấy gói nâng cấp cục bộ</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Khám phá gói nâng cấp cục bộ, bạn có muốn nâng cấp ngay bây giờ không?</string>
+    <string name="tip_local_nofile">Không tìm thấy gói nâng cấp cục bộ. Vui lòng đặt update.zip vào thư mục gốc của thiết bị USB!</string>
+    <string name="tip_force_update">Hệ thống sẽ bắt đầu nâng cấp sau %1$d giây, vui lòng không tắt nguồn!</string>
+    
+    <string name="tip_update_verifying">Gói nâng cấp đang được xác minh, vui lòng không tắt nguồn!</string>
+    <string name="tip_update_verify_stop">Xác minh gói nâng cấp đã dừng!</string>
+    <string name="tip_update_verify_success">Xác minh gói nâng cấp hoàn tất, sau đó sẽ cài đặt!</string>
+    <string name="tip_update_verify_fail">Cảnh báo: Xác minh gói nâng cấp không thành công, vui lòng xác nhận xem gói nâng cấp có khớp với hệ thống hiện tại không!</string>
+    
+    <string name="tip_update_checking">Kiểm tra cập nhật ....</string>
+    <string name="tip_update_check_fail">Kiểm tra lỗi cập nhật!</string>
+    <string name="tip_update_version_latest">Hiện tại là phiên bản mới nhất!</string>
+
+    <string name="tip_downloaded">Đã tải xuống: </string>
+    <string name="tip_download_pause">Quá trình tải xuống đã bị tạm dừng: </string>
+    <string name="tip_download_fail">Nâng cấp gói tải xuống không thành công ....</string>
+    <string name="tip_download_stop">Quá trình tải xuống đã bị dừng ....</string>
+    <string name="tip_download_success">Gói nâng cấp đã được tải xuống. Bạn có muốn nâng cấp ngay bây giờ? Không tắt nguồn trong quá trình nâng cấp!</string>
+    
+    <string name="tip_update_nospace">Kích thước tệp nâng cấp là %1$s và dung lượng trống lưu trữ nội bộ là %2$s!</string>
+    
+    <string name="tip_update_result_success">Chúc mừng bạn đã nâng cấp!</string>
+    <string name="tip_update_result_failed">Xin lỗi nâng cấp không thành công!</string>
+
+    <string name="tip_remote_find_newversion">Đã tìm thấy phiên bản mới!</string>
+    <string name="tip_update_zip_path">Nâng cấp đường dẫn gói: </string>
+    <string name="tip_update_zip_length">Nâng cấp kích thước gói: </string>
+    <string name="tip_update_zip_version">Nâng cấp phiên bản gói: </string>
+
+    <string name="tip_system_version">Phiên bản hiện tại: </string>
+    <string name="tip_system_builddate">Ngày xây dựng: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Nâng cấp</string>
+    <string name="str_btn_update_cancel">Hủy</string>
+    <string name="str_btn_update_notyet">Bỏ qua</string>
+
+    <string name="str_btn_verify_cancle">Hủy</string>
+    <string name="str_btn_verify_again">Xác minh lại</string>
+    <string name="str_btn_check_again">Thử lại</string>
+
+    <string name="str_btn_download_begin">Bắt đầu</string>
+    <string name="str_btn_download_pause">Tạm dừng</string>
+    <string name="str_btn_download_goon">Tiếp tục</string>
+    <string name="str_btn_download_again">Một lần nữa</string>
+    <string name="str_btn_download_bg">Tự động</string>
+
+    <string name="str_btn_close">Đóng</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Đĩa di động</string>
+    <string name="str_inner_storage">Bộ nhớ trong</string>
+    
+</resources>

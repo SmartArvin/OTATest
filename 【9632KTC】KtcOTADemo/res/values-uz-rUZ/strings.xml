@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Tizimni yangilash</string>
+    <string name="title_local_update">Mahalliy yangilanish</string>
+    <string name="title_remote_update">Tarmoqni yangilash</string>
+    <string name="title_install_reboot">o\'rnatish</string>
+    <string name="title_nospace_notify">Kam xotira hajmi</string>
+    <string name="title_remote_notify">Tarmoqni yangilash paketini kashf</string>
+    <string name="title_local_notify">Mahalliy yangilanish paketini topildi</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Mahalliy yangilanish paketini o\'rganing, endi yangilamoqchimisiz?</string>
+    <string name="tip_local_nofile">Mahalliy yangilash to\'plami topilmadi. Iltimos, update.zipni USB qurilmaning ildiz katalogiga qo\'ying!</string>
+    <string name="tip_force_update">Tizim %1$d soniyadan so\'ng yangilanadi, kuchni o\'chirmang!</string>
+    
+    <string name="tip_update_verify">yangilash to\'plami tekshirilmoqda, kuchni o\'chirmang!</string>
+    <string name="tip_update_verify_stop">Paketni tekshirishni yangilash to\'xtatildi!</string>
+    <string name="tip_update_verify_success">Yangilanish paketini tekshirish tugallangandan keyin o\'rnatiladi!</string>
+    <string name="tip_update_verify_fail">Ogohlantirish: Paketni yangilashni yangilash muvaffaqiyatsiz tugadi, iltimos, yangilanish paketining mavjud tizimga mos kelishini tasdiqlang!</string>
+    
+    <string name="tip_update_checking">Yangilanishlarni tekshirish ....</string>
+    <string name="tip_update_check_fail">yangilash xatoligini tekshiring!</string>
+    <string name="tip_update_version_latest">Joriy tizim - bu oxirgi versiya!</string>
+    
+    <string name="tip_downloaded">Yuklab olingan: </string>
+    <string name="tip_download_pause">Yuklab olish to\'xtatildi: </string>
+    <string name="tip_download_fail">Yuklab olish paketini yuklab bo\'lmadi ....</string>
+    <string name="tip_download_stop">Yuklab olish to\'xtatildi ....</string>
+    <string name="tip_download_success">Yangilanish to\'plami yuklangan. Hoziroq yangilashni xohlaysizmi? Yangilash jarayonida o\'chirib qo\'yma!</string>
+    
+    <string name="tip_update_nospace">Fayl hajmini yangilash %1$s va ichki xotira hajmi %2$s!</string>
+    
+    <string name="tip_update_result_success">Yangilanish bilan tabriklaymiz!</string>
+    <string name="tip_update_result_failed">Uzr so\'rash muvaffaqiyatsiz tugadi!</string>
+    
+    <string name="tip_remote_find_newversion">Yangi versiya topildi!</string>
+    <string name="tip_update_zip_path">Paketning yo\'lini yangilang: </string>
+    <string name="tip_update_zip_length">Paket hajmini yangilash: </string>
+    <string name="tip_update_zip_version">Paket versiyasini yangilash: </string>
+    
+    <string name="tip_system_version">Joriy versiya: </string>
+    <string name="tip_system_builddate">Tarixni yaratish: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">yangilash</string>
+    <string name="str_btn_update_cancel">Bekor qilish</string>
+    <string name="str_btn_update_notyet">Yopish</string>
+    
+    <string name="str_btn_verify_cancle">Bekor qilish</string>
+    <string name="str_btn_verify_again">Qayta tekshirish</string>
+    <string name="str_btn_check_again">Qaytish</string>
+    
+    <string name="str_btn_download_begin">Boshlash</string>
+    <string name="str_btn_download_pause">To\'xtat</string>
+    <string name="str_btn_download_goon">Davom etishi</string>
+    <string name="str_btn_download_again">Yana</string>
+    <string name="str_btn_download_bg">Avto</string>
+    
+    <string name="str_btn_close">Yopish</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">olinadigan Disk</string>
+    <string name="str_inner_storage">Ichki xotira</string>
+    
+  
+</resources>

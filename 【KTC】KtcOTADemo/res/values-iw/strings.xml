@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">שדרוג מערכת</string>
+    <string name="title_local_update">שדרוג מקומי</string>
+    <string name="title_remote_update">שדרוג רשת</string>
+    <string name="title_install_reboot">התקן</string>
+    <string name="title_nospace_notify">אין מספיק שטח אחסון</string>
+    <string name="title_remote_notify">גלה חבילת שדרוג רשת</string>
+    <string name="title_local_notify">נמצאו חבילת שדרוג מקומית</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">גלה את חבילת השדרוג המקומית, האם ברצונך לשדרג כעת?</string>
+    <string name="tip_local_nofile">חבילת השדרוג המקומית לא נמצאה. נא לשים את update.zip לספריית השורש של התקן ה- USB!</string>
+    <string name="tip_force_update">המערכת תתחיל לשדרג לאחר %1$d שניות, בבקשה לא לכבות את הכוח!</string>
+    
+    <string name="tip_update_verifying">חבילת השדרוג מאומתת, אל תכבה את הכוח!</string>
+    <string name="tip_update_verify_stop">אימות חבילת השדרוג נפסק!</string>
+    <string name="tip_update_verify_success">אימות חבילת השדרוג הושלם, ולאחר מכן יתקין!</string>
+    <string name="tip_update_verify_fail">אזהרה: אימות חבילת השדרוג נכשל, ודא שחבילת השדרוג מתאימה למערכת הנוכחית</string>
+    
+    <string name="tip_update_checking">בדיקת עדכונים ....</string>
+    <string name="tip_update_check_fail">בדיקת תקלה בעדכון!</string>
+    <string name="tip_update_version_latest">כרגע הגירסה האחרונה!</string>
+    
+    <string name="tip_downloaded">הורידו:</string>
+    <string name="tip_download_pause">ההורדה הושהתה:</string>
+    <string name="tip_download_fail">הורדת חבילת השדרוג נכשלה ....</string>
+    <string name="tip_download_stop">ההורדה נעצרה ....</string>
+    <string name="tip_download_success">חבילת השדרוג הורדה. האם ברצונך לשדרג כעת? אל תכבה את המחשב במהלך תהליך השדרוג!</string>
+    
+    <string name="tip_update_nospace">גודל קובץ השדרוג הוא%1$s ושטח אחסון פנימי פנוי הוא %2$s!</string>
+    
+    <string name="tip_update_result_success">ברכות על השדרוג!</string>
+    <string name="tip_update_result_failed">השדרוג נכשל!</string>
+    
+    <string name="tip_remote_find_newversion">נמצאו גרסה חדשה!</string>
+    <string name="tip_update_zip_path">נתיב חבילת השדרוג: </string>
+    <string name="tip_update_zip_length">גודל חבילת השדרוג: </string>
+    <string name="tip_update_zip_version">גרסת חבילת שדרוג: </string>
+    
+    <string name="tip_system_version">הגרסה הנוכחית: </string>
+    <string name="tip_system_builddate">תאריך יצירה: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">שדרג</string>
+    <string name="str_btn_update_cancel">ביטול</string>
+    <string name="str_btn_update_notyet">לוותר</string>
+    
+    <string name="str_btn_verify_cancle">ביטול</string>
+    <string name="str_btn_verify_again">אמת מחדש</string>
+    <string name="str_btn_check_again">בדיקה חוזרת</string>
+    
+    <string name="str_btn_download_begin">התחל</string>
+    <string name="str_btn_download_pause">השהה</string>
+    <string name="str_btn_download_goon">המשך</string>
+    <string name="str_btn_download_again">שוב</string>
+    <string name="str_btn_download_bg">אוטומטי</string>
+    
+    <string name="str_btn_close">סגור</string>
+    
+    
+    <!-- other info -->
+    <string name="str_storage_default">דיסק נשלף</string>
+    <string name="str_inner_storage">אחסון פנימ</string>
+    
+    
+</resources>

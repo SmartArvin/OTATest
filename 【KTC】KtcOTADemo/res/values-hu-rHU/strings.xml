@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">Rendszerfrissítés</string>
+    <string name="title_local_update">Helyi frissítés</string>
+    <string name="title_remote_update">Hálózati frissítés</string>
+    <string name="title_install_reboot">telepítés telepítése</string>
+    <string name="title_nospace_notify">Nincs elegendő tárhely</string>
+    <string name="title_remote_notify">Fedezze fel a hálózati frissítési csomagot</string>
+    <string name="title_local_notify">Helyi frissítési csomag</string>
+    
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Fedezze fel a helyi frissítési csomagot, most frissíteni szeretné? </string>
+    <string name="tip_local_nofile">A helyi frissítési csomag nem található. Kérjük, helyezze a update.zip frissítési csomagot az USB-eszköz gyökérkönyvtárába!</string>
+    <string name="tip_force_update">A rendszer megkezdi a frissítést %1$d másodperc után, ne kapcsolja ki a teljesítményt!</string>
+    
+    <string name="tip_update_verifying">A frissítési csomag ellenőrzése folyamatban van, kérjük, ne kapcsolja ki a teljesítményt!</string>
+    <string name="tip_update_verify_stop">A frissítési csomag ellenőrzése leállt!</string>
+    <string name="tip_update_verify_success">A frissítési csomag ellenőrzése befejeződött, a frissítés elindul!</string>
+    
+    <string name="tip_update_verify_fail">Figyelmeztetés: a szoftverfrissítési csomag ellenőrzése sikertelen volt, kérjük, erősítse meg, hogy a frissítési csomag megfelel-e az aktuális szoftverrendszernek!</string>
+    
+    <string name="tip_update_checking">frissítéseket észlel ....</string>
+    <string name="tip_update_check_fail">Frissítési hiba észlelése!</string>
+    
+    <string name="tip_update_version_latest">jelenleg a legújabb verzió!</string>
+    
+    <string name="tip_downloaded">Letöltött: </string>
+    <string name="tip_download_pause">letöltés felfüggesztett: </string>
+    <string name="tip_download_fail">Frissítési csomag letöltése sikertelen ....</string>
+    <string name="tip_download_stop">A letöltés befejeződött ....</string>
+    <string name="tip_download_success">A frissítési csomag letölthető. Szeretné frissíteni most? Ne kapcsolja ki a frissítési folyamat során! </string>
+    
+    
+    <string name="tip_update_nospace">A frissítési fájl mérete %1$s, és a belső tárhely szabad hely %2$s!</string>
+    <string name="tip_update_result_success">Gratulálunk a frissítéshez!</string>
+    <string name="tip_update_result_failed">Sajnálom a frissítés sikertelen!</string>
+    
+    <string name="tip_remote_find_newversion">Új verzió talált!</string>
+    <string name="tip_update_zip_path">Frissítési csomag elérési útja: </string>
+    <string name="tip_update_zip_length">Frissítési csomag mérete: </string>
+    <string name="tip_update_zip_version">Frissítési csomag verzió: </string>
+    
+    <string name="tip_system_version">aktuális verzió: </string>
+    <string name="tip_system_builddate">kiadási idő: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Frissítés most</string>
+    <string name="str_btn_update_cancel">törölje a frissítést</string>
+    <string name="str_btn_update_notyet">Nincs frissítve</string>
+    
+    <string name="str_btn_verify_cancle">visszavonja az ellenőrzést</string>
+    <string name="str_btn_verify_again">újra ellenőrizze</string>
+    <string name="str_btn_check_again">Reteszt</string>
+    
+    <string name="str_btn_download_begin">Letöltés indítása</string>
+    <string name="str_btn_download_pause">leállítja a letöltést</string>
+    <string name="str_btn_download_goon">A letöltés folytatása</string>
+    <string name="str_btn_download_again">Letöltés újra</string>
+    <string name="str_btn_download_bg">A backstage letöltés</string>
+    
+    <string name="str_btn_close">bezár</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Cserélhető lemez</string>
+    <string name="str_inner_storage">belső tároló</string>
+    
+    
+</resources>

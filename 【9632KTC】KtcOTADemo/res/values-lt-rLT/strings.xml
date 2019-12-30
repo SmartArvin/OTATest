@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Sistemos atnaujinimas</string>
+    <string name="title_local_update">Vietinis atnaujinimas</string>
+    <string name="title_remote_update">Tinklo atnaujinimas</string>
+    <string name="title_install_reboot">įdiegti naujinimą</string>
+    <string name="title_nospace_notify">Nepakankama atminties vieta</string>
+    <string name="title_remote_notify">Atraskite tinklo atnaujinimo paketą</string>
+    <string name="title_local_notify">Rasta vietinio atnaujinimo paketo</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Atraskite vietinį atnaujinimo paketą, ar norite dabar atnaujinti?</string>
+    <string name="tip_local_nofile">Vietos atnaujinimo paketas nerastas. Įdėkite naujinimo paketą update.zip į USB įrenginio šakninį katalogą!</string>
+    <string name="tip_force_update">Sistema pradės atnaujinti po %1$d sekundžių, prašome neišjungti maitinimo!</string>
+    
+    <string name="tip_update_verifying">Patikros atnaujinimo paketas, prašome neišjungti maitinimo!</string>
+    <string name="tip_update_verify_stop">Atnaujinimo paketo patikra sustabdyta!</string>
+    <string name="tip_update_verify_success">Atnaujinimo paketo patikrinimas baigtas, atnaujinimas prasidės!</string>
+    
+    <string name="tip_update_verify_fail">Įspėjimas: nepavyko patikrinti programinės įrangos atnaujinimo paketo, prašome patvirtinti, ar naujinimo paketas atitinka dabartinę programinės įrangos sistemą!</string>
+    
+    <string name="tip_update_checking">Aptinka atnaujinimus ....</string>
+    <string name="tip_update_check_fail">Atnaujinimo gedimo aptikimas!</string>
+    
+    <string name="tip_update_version_latest">šiuo metu yra naujausia versija!</string>
+    
+    <string name="tip_downloaded">Atsisiuntė: </string>
+    <string name="tip_download_pause">Parsisiųsti buvo sustabdytas: </string>
+    <string name="tip_download_fail">Atnaujinimo paketo atsisiuntimas nepavyko ....</string>
+    <string name="tip_download_stop">Atsisiuntimas nutrauktas ....</string>
+    <string name="tip_download_success">Atnaujintas atnaujinimo paketas. Ar norite dabar atnaujinti? Nenaudokite atnaujinimo proceso metu!</string>
+    
+    <string name="tip_update_nospace">Atnaujinimo failo dydis yra %1$s, o vidinė atminties erdvė yra %2$s!</string>
+    <string name="tip_update_result_success">Sveikiname atnaujinimą!</string>
+    <string name="tip_update_result_failed">Atsiprašome atnaujinimo nepavyko!</string>
+    
+    <string name="tip_remote_find_newversion">Rasta nauja versija!</string>
+    <string name="tip_update_zip_path">Atnaujinimo paketo kelias: </string>
+    <string name="tip_update_zip_length">Atnaujinti paketo dydį: </string>
+    <string name="tip_update_zip_version">Naujinimo paketo versija: </string>
+    
+    <string name="tip_system_version">Dabartinė versija: </string>
+    <string name="tip_system_builddate">Išleidimo laikas: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Atnaujinkite dabar</string>
+    <string name="str_btn_update_cancel">Atšaukti naujinimą</string>
+    <string name="str_btn_update_notyet">Neįdiegta</string>
+    
+    <string name="str_btn_verify_cancle">Atšaukti patvirtinimą</string>
+    <string name="str_btn_verify_again">Pakartotinai patikrinkite</string>
+    <string name="str_btn_check_again">Pakartotinis pakartojimas</string>
+    
+    <string name="str_btn_download_begin">Pradėkite atsisiųsti</string>
+    <string name="str_btn_download_pause">Sustabdyti atsisiuntimą</string>
+    <string name="str_btn_download_goon">Toliau atsisiųskite</string>
+    <string name="str_btn_download_again">Iš naujo atsisiųsti</string>
+    <string name="str_btn_download_bg">Atsisiųsti užkulisius</string>
+    
+    <string name="str_btn_close">Uždaryti</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Nuimamas diskas</string>
+    <string name="str_inner_storage">Vidinė atmintis</string>
+    
+    
+</resources>

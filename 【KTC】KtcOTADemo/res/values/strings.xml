@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- title information -->
+    <string name="title_system_update">System Upgrade</string>
+    <string name="title_local_update">Local Upgrade</string>
+    <string name="title_remote_update">Network Upgrade</string>
+    <string name="title_install_reboot">Install</string>
+    <string name="title_nospace_notify">Insufficient storage space</string>
+    <string name="title_remote_notify">Discover network upgrade package</string>
+    <string name="title_local_notify">Found local upgrade package</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Discover the local upgrade package, do you want to upgrade now?</string>
+    <string name="tip_local_nofile">The local upgrade package is not found. Please put the update.zip into the root directory of the USB device!</string>
+    <string name="tip_force_update">The system will start to upgrade after %1$d seconds, please do not turn off the power!</string>
+    
+    <string name="tip_update_verifying">The upgrade package is being verified, please do not turn off the power!</string>
+    <string name="tip_update_verify_stop">Upgrade package verification has stopped!</string>
+    <string name="tip_update_verify_success">The upgrade package verification is complete, then will install!</string>
+    <string name="tip_update_verify_fail">Warning: Upgrade package verification failed, please confirm whether the upgrade package matches the current system!</string>
+    
+    <string name="tip_update_checking">Checking updates....</string>
+    <string name="tip_update_check_fail">Checking update failure!</string>
+    <string name="tip_update_version_latest">The current system is the latest version!</string>
+
+    <string name="tip_downloaded">Downloaded: </string>
+    <string name="tip_download_pause">Download has been paused: </string>
+    <string name="tip_download_fail">Upgrade package download failed....</string>
+    <string name="tip_download_stop">Download has been stoped....</string>
+    <string name="tip_download_success">The upgrade package has been downloaded. Do you want to upgrade now? Do not power off during the upgrade process!</string>
+
+    <string name="tip_update_nospace">Upgrade file size is %1$s and internal storage free space is %2$s !</string>
+    
+    <string name="tip_update_result_success">Congratulations on the upgrade!</string>
+    <string name="tip_update_result_failed">Sorry upgrade failed!</string>
+
+    <string name="tip_remote_find_newversion">Found new version!</string>
+    <string name="tip_update_zip_path">Upgrade package path: </string>
+    <string name="tip_update_zip_length">Upgrade package size: </string>
+    <string name="tip_update_zip_version">Upgrade package version: </string>
+
+    <string name="tip_system_version">Current version: </string>
+    <string name="tip_system_builddate">Build date: </string>
+
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Upgrade</string>
+    <string name="str_btn_update_cancel">Cancel</string>
+    <string name="str_btn_update_notyet">Close</string>
+
+    <string name="str_btn_verify_cancle">Cancel</string>
+    <string name="str_btn_verify_again">Re-verify </string>
+    <string name="str_btn_check_again">Retest</string>
+
+    <string name="str_btn_download_begin">Start</string>
+    <string name="str_btn_download_pause">Pause</string>
+    <string name="str_btn_download_goon">Continue</string>
+    <string name="str_btn_download_again">Again</string>
+    <string name="str_btn_download_bg">Auto</string>
+
+    <string name="str_btn_close">Close</string>
+
+    <!-- other info -->
+    <string name="str_storage_default">Removable Disk</string>
+    <string name="str_inner_storage">Internal Storage</string>
+
+
+</resources>

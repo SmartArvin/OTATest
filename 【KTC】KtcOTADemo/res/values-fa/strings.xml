@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">ارتقا سیستم</string>
+    <string name="title_local_update">ارتقاء محلی</string>
+    <string name="title_remote_update">ارتقاء شبکه</string>
+    <string name="title_install_reboot">نصب</string>
+    <string name="title_nospace_notify">فضای ذخیره سازی ناکافی</string>
+    <string name="title_remote_notify">کشف پکیج ارتقاء شبکه</string>
+    <string name="title_local_notify">بسته ارتقا محلی را</string>
+   
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">کشف بسته ارتقاء محلی، آیا می خواهید ارتقا دهید در حال حاضر؟</string>
+    <string name="tip_local_nofile">بسته ارتقاء محلی یافت نشد لطفا update.zip را به پوشه ریشه دستگاه USB قرار دهید!</string>
+    <string name="tip_force_update">سیستم بعد از%1$d ثانیه شروع به ارتقاء می کند، لطفا قدرت را خاموش نکنید!</string>
+    
+    <string name="tip_update_verifying">بسته ارتقاء تأیید شده است، لطفا قدرت را خاموش نکنید!</string>
+    <string name="tip_update_verify_stop">تأیید ارتقاء بسته متوقف شده است!</string>
+    <string name="tip_update_verify_success">تأیید بسته ارتقاء کامل است، سپس نصب خواهد شد!</string>
+    <string name="tip_update_verify_fail">هشدار: ارتقاء تأیید بسته انجام نشد، لطفا تایید کنید که آیا بسته ارتقا با سیستم فعلی مطابقت دارد</string>
+    
+    <string name="tip_update_checking">بررسی به روز رسانی ....</string>
+    <string name="tip_update_check_fail">بررسی شکست به روز رسانی!</string>
+    <string name="tip_update_version_latest">در حال حاضر آخرین نسخه!</string>
+    
+    <string name="tip_downloaded">دانلود شده: </string>
+    <string name="tip_download_pause">بارگیری متوقف شده است: </string>
+    <string name="tip_download_fail">آپدیت آپدیت بسته نشد ....</string>
+    <string name="tip_download_stop">دانلود متوقف شد ....</string>
+    <string name="tip_download_success">بسته ارتقاء دانلود شده است. میخواهید اکنون ارتقا دهید؟ در طول فرآیند ارتقاء، خاموش نکنید!</string>
+    
+    <string name="tip_update_nospace">اندازه فایل به‌روز رسانی %1$s است، ولی فضای آزاد حافظه %2$s  است! </string>
+    
+    <string name="tip_update_result_success">تبریک به ارتقا!</string>
+    <string name="tip_update_result_failed">ارتقاء باقیمان ناکام شد!</string>
+    
+    <string name="tip_remote_find_newversion">نسخه جدیدی یافت!</string>
+    <string name="tip_update_zip_path">ارتقا مسیر بسته: </string>
+    <string name="tip_update_zip_length">ارتقا اندازه بسته: </string>
+    <string name="tip_update_zip_version">ارتقا نسخه بسته: </string>
+    
+    <string name="tip_system_version">نسخه فعلی: </string>
+    <string name="tip_system_builddate">ساختن تاریخ: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">ارتقا</string>
+    <string name="str_btn_update_cancel">لغو</string>
+    <string name="str_btn_update_notyet">فراموش کردن</string>
+    
+    <string name="str_btn_verify_cancle">لغو</string>
+    <string name="str_btn_verify_again">دوباره تأیید</string>
+    <string name="str_btn_check_again">دوباره</string>
+    
+    <string name="str_btn_download_begin">شروع</string>
+    <string name="str_btn_download_pause">مکث</string>
+    <string name="str_btn_download_goon">ادامه</string>
+    <string name="str_btn_download_again">دوباره</string>
+    <string name="str_btn_download_bg">خودکار</string>
+    
+    <string name="str_btn_close">بستن</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">دیسک قابل حذف</string>
+    <string name="str_inner_storage">ذخیره سازی داخلی</string>
+    
+</resources>

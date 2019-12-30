@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string name="title_system_update">Ažuriranje sistema</string>
+<string name="title_local_update">Lokalno ažuriranje</string>
+<string name="title_remote_update">Mrežno ažuriranje</string>
+<string name="title_install_reboot">instaliraj</string>
+<string name="title_nospace_notify">Nedovoljan memorijski prostor</string>
+<string name="title_remote_notify">Otkrijte paket za mrežno ažuriranje</string>
+<string name="title_local_notify">Nađen je paket za lokalno ažuriranje</string>
+<string name="tip_local_hasfile">Otkrijte paket za lokalno ažuriranje, da li želite da sada ažurirate? </string>
+<string name="tip_local_nofile">Lokalni paket za ažuriranje nije nađen.  Molimo da stavite update.zip u root direktorijum USB uređaja!</string>
+<string name="tip_force_update">Sistem će početi ažuriranje nakon %1$d sekundi, molimo da ne isključujete uređaj!</string>
+<string name="tip_update_verifying">Paket za ažuriranje se provjerava, molimo da ne isključujete uređaj!</string>
+<string name="tip_update_verify_stop">Provjera paketa za ažuriranje je zaustavljena!</string>
+<string name="tip_update_verify_success">Provjera paketa za ažuriranje je potpuna, nakon toga počinje instalacija!</string>
+<string name="tip_update_verify_fail">Upozorenje: Provjera paketa za ažuriranje nije uspjela, molimo da potvrdite da li paket za ažuriranje odgovara postojećem sistemu!</string>
+<string name="tip_update_checking">Provjerava se da li postoje ažuriranja.....</string>
+<string name="tip_update_check_fail">Neuspješna provjera ažuriranja!</string>
+<string name="tip_update_version_latest">Postojeći sistem je najnovija verzija!</string>
+<string name="tip_downloaded">Preuzeto:  </string>
+<string name="tip_download_pause">Preuzimanje je pauzirano:  </string>
+<string name="tip_download_fail">Neuspješno preuzimanje paketa za ažuiranje....</string>
+<string name="tip_download_stop">Preuzimanje je zaustavljeno.....</string>
+<string name="tip_download_success">Paket za ažuriranje je preuzet.  Da li želite da sada ažurirate? Ne isključujte uređaj tokom procesa ažuriranja!</string>
+<string name="tip_update_nospace">Veličina fajla za ažuriranje je %1$s a slobodan prostor u internoj memoriji je %2$s !</string>
+<string name="tip_update_result_success">Čestitamo na ažuriranju!</string>
+<string name="tip_update_result_failed">Žao nam je, ažuriranje nije uspjelo!</string>
+<string name="tip_remote_find_newversion">Nađena je nova verzija!</string>
+<string name="tip_update_zip_path">Putanja do paketa sa ažuriranjem: </string>
+<string name="tip_update_zip_length">Veličina paketa sa ažuriranjem: </string>
+<string name="tip_update_zip_version">Verzija paketa sa ažuriranjem: </string>
+<string name="tip_system_version">Postojeća verzija:  </string>
+<string name="tip_system_builddate">Datum izrade:  </string>
+<string name="str_btn_update_now">Ažuriranje </string>
+<string name="str_btn_update_cancel">Otkaži</string>
+<string name="str_btn_update_notyet">Zatvori</string>
+<string name="str_btn_verify_cancle">Otkaži</string>
+<string name="str_btn_verify_again">Ponovo provjeri </string>
+<string name="str_btn_check_again">Ponovo testiraj</string>
+<string name="str_btn_download_begin">Počni</string>
+<string name="str_btn_download_pause">Pauziraj</string>
+<string name="str_btn_download_goon">Nastavi</string>
+<string name="str_btn_download_again">Ponovo</string>
+<string name="str_btn_download_bg">Auto</string>
+<string name="str_btn_close">Zatvori</string>
+<string name="str_storage_default">Prenosivi disk</string>
+</resources>

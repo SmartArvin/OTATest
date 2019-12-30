@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Mise à niveau du système</string>
+    <string name="title_local_update">Mise à niveau locale</string>
+    <string name="title_remote_update">Mise à niveau du réseau</string>
+    <string name="title_install_reboot">Installer</string>
+    <string name="title_nospace_notify">Espace de stockage insuffisant</string>
+    <string name="title_remote_notify">Découvrir le package de mise à niveau du réseau</string>
+    <string name="title_local_notify">Package de mise à niveau local trouvé</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Découvrez le package de mise à niveau local, souhaitez-vous effectuer la mise à niveau maintenant?</string>
+    <string name="tip_local_nofile">Le package de mise à niveau local est introuvable. Veuillez mettre le fichier update.zip dans le répertoire racine du périphérique USB!</string>
+    <string name="tip_force_update">Le système commencera à se mettre à niveau après %1$d secondes. Veuillez ne pas éteindre le lecteur!</string>
+    
+    <string name="tip_update_verifying">Le package de mise à niveau est en cours de vérification, veuillez ne pas éteindre le lecteur!</string>
+    <string name="tip_update_verify_stop">La vérification du package de mise à niveau s\'est arrêtée!</string>
+    <string name="tip_update_verify_success">La vérification du package de mise à niveau est terminée, puis va s\'installer!</string>
+    <string name="tip_update_verify_fail">Avertissement: la vérification du package de mise à niveau a échoué. Veuillez confirmer si le package de mise à niveau correspond au système actuel!</string>
+    
+    <string name="tip_update_checking">Vérification des mises à jour ....</string>
+    <string name="tip_update_check_fail">Vérification de l\'échec de la mise à jour!</string>
+    <string name="tip_update_version_latest">est actuellement la dernière version!</string>
+    
+    <string name="tip_downloaded">Téléchargé: </string>
+    <string name="tip_download_pause">Le téléchargement a été suspendu: </string>
+    <string name="tip_download_fail">Le téléchargement du package de mise à niveau a échoué ....</string>
+    <string name="tip_download_stop">Le téléchargement a été arrêté ....</string>
+    <string name="tip_download_success">Le package de mise à niveau a été téléchargé. Voulez-vous mettre à niveau maintenant? Ne pas éteindre pendant le processus de mise à niveau!</string>
+    
+    <string name="tip_update_nospace">La taille du fichier de mise à niveau est %1$s et l\'espace disponible dans la mémoire de stockage interne est %2$s!</string>
+    
+    <string name="tip_update_result_success">Félicitations pour la mise à niveau!</string>
+    <string name="tip_update_result_failed">Désolé, la mise à niveau a échoué!</string>
+    
+    <string name="tip_remote_find_newversion">Nouvelle version trouvée!</string>
+    <string name="tip_update_zip_path">Chemin du package de mise à niveau: </string>
+    <string name="tip_update_zip_length">Taille du package de mise à niveau: </string>
+    <string name="tip_update_zip_version">Version du package de mise à niveau: </string>
+    
+    <string name="tip_system_version">Version actuelle: </string>
+    <string name="tip_system_builddate">Date de construction: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Mise à jour</string>
+    <string name="str_btn_update_cancel">Annuler</string>
+    <string name="str_btn_update_notyet">Renvoyer</string>
+    
+    <string name="str_btn_verify_cancle">Annuler</string>
+    <string name="str_btn_verify_again">Nouveau</string>
+    <string name="str_btn_check_again">Nouveau</string>
+    
+    <string name="str_btn_download_begin">Démarrer</string>
+    <string name="str_btn_download_pause">Pause</string>
+    <string name="str_btn_download_goon">Continuer</string>
+    <string name="str_btn_download_again">Nouveau</string>
+    <string name="str_btn_download_bg">Auto</string>
+    
+    <string name="str_btn_close">Fermer</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Disque amovible</string>
+    <string name="str_inner_storage">Stockage interne</string>
+    
+    
+</resources>

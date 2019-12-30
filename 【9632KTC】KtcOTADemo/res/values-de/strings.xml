@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">Systemaktualisierung</string>
+    <string name="title_local_update">Lokales Upgrade</string>
+    <string name="title_remote_update">Netzwerk-Upgrade</string>
+    <string name="title_install_reboot">Installieren Sie</string>
+    <string name="title_nospace_notify">Nicht genügend Speicherplatz</string>
+    <string name="title_remote_notify">Netzwerkaktualisierungspaket erkennen</string>
+    <string name="title_local_notify">Lokales Upgrade-Paket gefunden</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Entdecken Sie das lokale Aktualisierungspaket. Möchten Sie jetzt ein Upgrade durchführen?</string>
+	<string name="tip_local_nofile">Das lokale Aktualisierungspaket wurde nicht gefunden. Bitte legen Sie die update.zip im Stammverzeichnis des USB-Geräts ab!</string>
+	<string name="tip_force_update">Das System beginnt nach %1$d Sekunden mit dem Upgrade. Bitte schalten Sie die Stromversorgung nicht aus!</string>
+	
+	<string name="tip_update_verifying">Das Upgrade-Paket wird überprüft. Bitte schalten Sie den Strom nicht aus!</string>
+	<string name="tip_update_verify_stop">Die Überprüfung des Aktualisierungspakets wurde gestoppt!</string>
+	<string name="tip_update_verify_success">Die Überprüfung des Aktualisierungspakets ist abgeschlossen und wird dann installiert!</string>
+	<string name="tip_update_verify_fail">Warnung: Die Überprüfung des Aktualisierungspakets ist fehlgeschlagen. Bitte überprüfen Sie, ob das Aktualisierungspaket dem aktuellen System entspricht!</string>
+	
+	<string name="tip_update_checking">Überprüfung der Updates ....</string>
+	<string name="tip_update_check_fail">Überprüfen des Aktualisierungsfehlers!</string>
+	<string name="tip_update_version_latest">Ist aktuell die neueste Version!</string>
+	
+	<string name="tip_downloaded">Heruntergeladen: </string>
+	<string name="tip_download_pause">Der Download wurde angehalten: </string>
+	<string name="tip_download_fail">Fehler beim Herunterladen des Aktualisierungspakets ....</string>
+	<string name="tip_download_stop">Der Download wurde abgebrochen ...</string>
+	<string name="tip_download_success">Das Upgrade-Paket wurde heruntergeladen. Möchten Sie jetzt ein Upgrade durchführen? Schalten Sie während des Aktualisierungsvorgangs nicht aus!</string>
+	
+	<string name="tip_update_nospace">Die Größe der Upgrade-Datei beträgt %1$s und der freie Speicherplatz im internen Speicher beträgt %2$s!</string>
+	
+	<string name="tip_update_result_success">Herzlichen Glückwunsch zum Upgrade!</string>
+	<string name="tip_update_result_failed">Das Upgrade ist fehlgeschlagen!</string>
+	
+	<string name="tip_remote_find_newversion">Neue Version gefunden!</string>
+	<string name="tip_update_zip_path">Aktualisieren Sie den Paketpfad: </string>
+	<string name="tip_update_zip_length">Aktualisieren Sie die Paketgröße: </string>
+	<string name="tip_update_zip_version">Aktualisieren Sie die Paketversion: </string>
+	
+	<string name="tip_system_version">Aktuelle Version: </string>
+	<string name="tip_system_builddate">Erstellungsdatum: </string>
+	
+	<!-- button infomation -->
+	<string name="str_btn_update_now">Upgrade</string>
+	<string name="str_btn_update_cancel">Abbrechen</string>
+	<string name="str_btn_update_notyet">Aufgeben</string>
+	
+	<string name="str_btn_verify_cancle">Abbrechen</string>
+	<string name="str_btn_verify_again">Erneut verifizieren</string>
+	<string name="str_btn_check_again">Erneut testen</string>
+	
+	<string name="str_btn_download_begin">Beginnen</string>
+	<string name="str_btn_download_pause">Pause</string>
+	<string name="str_btn_download_goon">Weiter</string>
+	<string name="str_btn_download_again">Erneut</string>
+	<string name="str_btn_download_bg">Auto</string>
+	
+	<string name="str_btn_close">Schließen</string>
+	
+	<!-- other info -->
+	<string name="str_storage_default">Wechseldatenträger</string>
+	<string name="str_inner_storage">Interner Speicher</string>
+	
+	
+</resources>

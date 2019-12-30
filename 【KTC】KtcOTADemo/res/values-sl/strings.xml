@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+
+    <!-- title information -->
+    <string name="title_system_update">Nadgradnja sistema</string>
+    <string name="title_local_update">Lokalna nadgradnja</string>
+    <string name="title_remote_update">Nadgradnja omrežja</string>
+    <string name="title_install_reboot">Namesti</string>
+    <string name="title_nospace_notify">Nezadosten prostor za shranjevanje</string>
+    <string name="title_remote_notify">Odkrijte paket nadgradnje omrežja</string>
+    <string name="title_local_notify">Najdeni lokalni paket za nadgradnjo</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Odkrijte lokalni paket za nadgradnjo, želite zdaj nadgraditi?</string>
+    <string name="tip_local_nofile">Lokalnega paketa za nadgradnjo ni mogoče najti. Prosimo, postavite update.zip v korenski imenik naprave USB!</string>
+    <string name="tip_force_update">Sistem se bo začel nadgraditi po %1$d sekundah, ne izklopite napajanja!</string>
+    <string name="tip_update_verifying">Paket nadgradnje se preverja, ne izklapljajte napajanja!</string>
+    <string name="tip_update_verify_stop">Preverjanje paketa za nadgradnjo se je ustavilo!</string>
+    <string name="tip_update_verify_success">Preverjanje paketa za nadgradnjo je končano, nato pa bo nameščeno!</string>
+    <string name="tip_update_verify_fail">Opozorilo: Preverjanje paketa nadgradnje ni uspelo. Prosimo, potrdite, ali se paket nadgradnje ujema s trenutnim sistemom!</string>
+    
+    <string name="tip_update_checking">Preverjanje posodobitev ....</string>
+    <string name="tip_update_check_fail">Preverjanje neuspele posodobitve!</string>
+    <string name="tip_update_version_latest">Je trenutno najnovejša različica!</string>
+    
+    <string name="tip_downloaded">Preneseno: </string>
+    <string name="tip_download_pause">Prenos je zaustavljen: </string>
+    <string name="tip_download_fail">Prenos paketa nadgradnje ni uspel ....</string>
+    <string name="tip_download_stop">Prenos je bil ustavljen ....</string>
+    <string name="tip_download_success">Paket za nadgradnjo je bil prenesen. Ali želite zdaj nadgraditi? Ne izklapljajte se med postopkom nadgradnje!</string>
+    
+    <string name="tip_update_nospace">Velikost datoteke za nadgradnjo je %1$s, prosti notranji pomnilnik pa %2$s!</string>
+    
+    <string name="tip_update_result_success">Čestitamo za nadgradnjo!</string>
+    <string name="tip_update_result_failed">Oprostite nadgradnja ni uspela!</string>
+    
+    <string name="tip_remote_find_newversion">Najdena je nova različica!</string>
+    <string name="tip_update_zip_path">Pot paketa nadgradnje: </string>
+    <string name="tip_update_zip_length">Velikost paketa za nadgradnjo: </string>
+    <string name="tip_update_zip_version">Različica paketa za nadgradnjo: </string>
+    
+    <string name="tip_system_version">Trenutna različica: </string>
+    <string name="tip_system_builddate">Datum izgradnje: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Nadgradnja</string>
+    <string name="str_btn_update_cancel">Prekliči</string>
+    <string name="str_btn_update_notyet">Odpusti</string>
+    
+    <string name="str_btn_verify_cancle">Prekliči</string>
+    <string name="str_btn_verify_again">Ponovno preverite</string>
+    <string name="str_btn_check_again">Ponovi</string>
+    
+    <string name="str_btn_download_begin">Začni</string>
+    <string name="str_btn_download_pause">Pause</string>
+    <string name="str_btn_download_goon">Nadaljuj</string>
+    <string name="str_btn_download_again">Spet</string>
+    <string name="str_btn_download_bg">Samodejno</string>
+    
+    <string name="str_btn_close">Zapri</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Izmenljivi disk</string>
+    <string name="str_inner_storage">Notranji pomnilnik</string>
+    
+    
+</resources>

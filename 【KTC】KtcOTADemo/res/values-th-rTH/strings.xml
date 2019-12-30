@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">การอัปเกรดระบบ</string>
+    <string name="title_local_update">การอัปเกรดท้องถิ่น</string>
+    <string name="title_remote_update">การอัปเกรดเครือข่าย</string>
+    <string name="title_install_reboot">ติดตั้ง</string>
+    <string name="title_nospace_notify">พื้นที่เก็บข้อมูลไม่เพียงพอ</string>
+    <string name="title_remote_notify">ค้นพบแพ็คเกจการอัปเกรดเครือข่าย</string>
+    <string name="title_local_notify">พบแพ็คเกจอัปเกรดภายในเครื่อง</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">ค้นพบแพ็คเกจอัปเกรดท้องถิ่นคุณต้องการอัปเกรดตอนนี้หรือไม่</string>
+    <string name="tip_local_nofile">ไม่พบแพ็คเกจอัพเกรดในเครื่อง โปรดใส่ update.zip ไว้ในไดเรกทอรีรากของอุปกรณ์ USB!</string>
+    <string name="tip_force_update">ระบบจะเริ่มอัปเกรดหลังจาก  %1$d วินาทีโปรดอย่าปิดเครื่อง!</string>
+    
+    <string name="tip_update_verifying">กำลังอัปเดตแพคเกจการอัปเกรดโปรดอย่าปิดเครื่อง!</string>
+    <string name="tip_update_verify_stop">การยืนยันการอัปเกรดแพ็คเกจหยุดลง!</string>
+    <string name="tip_update_verify_success">การตรวจสอบแพ็คเกจการอัปเกรดเสร็จสมบูรณ์จากนั้นจะติดตั้ง!</string>
+    <string name="tip_update_verify_fail">คำเตือน: การตรวจสอบแพ็คเกจการอัปเกรดล้มเหลวโปรดยืนยันว่าแพคเกจการอัปเกรดตรงกับระบบปัจจุบันหรือไม่</string>
+    
+    <string name="tip_update_checking">กำลังตรวจสอบการอัปเดต ....</string>
+    <string name="tip_update_check_fail">กำลังตรวจสอบการอัปเดตล้มเหลว!</string>
+    <string name="tip_update_version_latest">ปัจจุบันเป็นเวอร์ชันล่าสุด!</string>
+    
+    <string name="tip_downloaded">ดาวน์โหลดแล้ว: </string>
+    <string name="tip_download_pause">การดาวน์โหลดถูกหยุดชั่วคราว: </string>
+    <string name="tip_download_fail">การอัปเกรดแพ็คเกจดาวน์โหลดล้มเหลว ....</string>
+    <string name="tip_download_stop">การดาวน์โหลดหยุดลงแล้ว ....</string>
+    <string name="tip_download_success">แพ็คเกจการอัปเกรดได้รับการดาวน์โหลด คุณต้องการอัพเกรดตอนนี้หรือไม่? ห้ามทำการปิดเครื่องในระหว่างกระบวนการอัพเกรด!</string>
+    
+    <string name="tip_update_nospace">ขนาดไฟล์อัปเกรดคือ  %1$s และพื้นที่เก็บข้อมูลภายในคือ  %2$s!</string>
+    
+    <string name="tip_update_result_success">ขอแสดงความยินดีในการอัปเกรด!</string>
+    <string name="tip_update_result_failed">ขออภัยการอัปเกรดล้มเหลว!</string>
+    
+    <string name="tip_remote_find_newversion">พบเวอร์ชั่นใหม่!</string>
+    <string name="tip_update_zip_path">อัปเกรดเส้นทางแพ็คเกจ: </string>
+    <string name="tip_update_zip_length">อัปเกรดขนาดแพ็คเกจ: </string>
+    <string name="tip_update_zip_version">อัปเกรดแพ็คเกจแพ็คเกจ: </string>
+    
+    <string name="tip_system_version">เวอร์ชันปัจจุบัน: </string>
+    <string name="tip_system_builddate">วันที่สร้าง: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">อัปเกรด</string>
+    <string name="str_btn_update_cancel">ยกเลิก</string>
+    <string name="str_btn_update_notyet">กลับ</string>
+    
+    <string name="str_btn_verify_cancle">ยกเลิก</string>
+    <string name="str_btn_verify_again">ยืนยันอีกครั้ง</string>
+    <string name="str_btn_check_again">ทดสอบซ้ำ</string>
+    
+    <string name="str_btn_download_begin">เริ่มต้น</string>
+    <string name="str_btn_download_pause">หยุดชั่วคราว</string>
+    <string name="str_btn_download_goon">ดำเนินการต่อ</string>
+    <string name="str_btn_download_again">อีกครั้ง</string>
+    <string name="str_btn_download_bg">อัตโนมัติ</string>
+    
+    <string name="str_btn_close">ปิด</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">ดิสก์แบบถอดได้</string>
+    <string name="str_inner_storage">ที่เก็บข้อมูลภายใน</string>
+    
+</resources>

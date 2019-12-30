@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Nadogradnja sustava</string>
+    <string name="title_local_update">Lokalna nadogradnja</string>
+    <string name="title_remote_update">Nadogradnja mreže</string>
+    <string name="title_install_reboot">Instaliraj</string>
+    <string name="title_nospace_notify">Nedovoljno prostora za pohranu</string>
+    <string name="title_remote_notify">Otkrijte paket nadogradnje mreže</string>
+    <string name="title_local_notify">Pronađen lokalni paket nadogradnje</string>
+    
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Otkrijte lokalni paket nadogradnje, želite li sada nadograditi?</string>
+    <string name="tip_local_nofile">Lokalni paket nadogradnje nije pronađen. Stavite update.zip u korijenski direktorij USB uređaja!</string>
+    <string name="tip_force_update">Sustav će početi s nadogradnjom nakon %1$d sekundi, nemojte isključivati ​​napajanje!</string>
+    
+    <string name="tip_update_verifying">Paket nadogradnje se provjerava, nemojte isključivati ​​napajanje!</string>
+    <string name="tip_update_verify_stop">Provjera paketa nadogradnje je zaustavljena!</string>
+    <string name="tip_update_verify_success">Potvrda paketa nadogradnje je dovršena, a zatim će se instalirati!</string>
+    <string name="tip_update_verify_fail">Upozorenje: Provjera paketa nadogradnje nije uspjela, potvrdite odgovara li paket nadogradnje trenutnom sustavu!</string>
+    
+    <string name="tip_update_checking">Provjera ažuriranja ....</string>
+    <string name="tip_update_check_fail">Provjera neuspjeha ažuriranja!</string>
+    <string name="tip_update_version_latest">Trenutno je najnovija verzija!</string>
+    
+    <string name="tip_downloaded">Preuzeto: </string>
+    <string name="tip_download_pause">Preuzimanje je zaustavljeno: </string>
+    <string name="tip_download_fail">Preuzimanje paketa nadogradnje nije uspjelo ....</string>
+    <string name="tip_download_stop">Preuzimanje je zaustavljeno ....</string>
+    <string name="tip_download_success">Paket nadogradnje je preuzet. Želite li sada nadograditi? Ne isključujte se tijekom postupka nadogradnje!</string>
+    
+    <string name="tip_update_nospace">Veličina datoteke za nadogradnju je %1$s, a interni prostor za pohranu je %2$s!</string>
+    
+    <string name="tip_update_result_success">Čestitamo na nadogradnji!</string>
+    <string name="tip_update_result_failed">Nažalost, nadogradnja nije uspjela!</string>
+    
+    <string name="tip_remote_find_newversion">Pronađena je nova verzija!</string>
+    <string name="tip_update_zip_path">Putanja paketa nadogradnje: </string>
+    <string name="tip_update_zip_length">Veličina paketa za nadogradnju: </string>
+    <string name="tip_update_zip_version">Verzija paketa nadogradnje: </string>
+    
+    <string name="tip_system_version">Trenutna verzija: </string>
+    <string name="tip_system_builddate">Datum izgradnje: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Nadogradnja</string>
+    <string name="str_btn_update_cancel">Otkaži</string>
+    <string name="str_btn_update_notyet">Kraj</string>
+    
+    <string name="str_btn_verify_cancle">Otkaži</string>
+    <string name="str_btn_verify_again">Ponovno provjerite</string>
+    <string name="str_btn_check_again">Ponovno ispitivanje</string>
+    
+    <string name="str_btn_download_begin">Početi</string>
+    <string name="str_btn_download_pause">Pauziraj</string>
+    <string name="str_btn_download_goon">Nastavi</string>
+    <string name="str_btn_download_again">Opet</string>
+    <string name="str_btn_download_bg">Automatsko</string>
+    
+    <string name="str_btn_close">Zatvori</string>
+    
+    
+    <!-- other info -->
+    <string name="str_storage_default">Izmjenjivi disk</string>
+    <string name="str_inner_storage">Unutarnja pohrana</string>
+
+
+</resources>

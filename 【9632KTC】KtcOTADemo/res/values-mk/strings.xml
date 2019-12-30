@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+	<string name="title_system_update">Надградба на системот</string>
+	<string name="title_local_update">Локална надградба</string>
+	<string name="title_remote_update">Надградба на мрежа</string>
+	<string name="title_install_reboot">Инсталирај</string>
+	<string name="title_nospace_notify">Недоволен простор за складирање</string>
+	<string name="title_remote_notify">Откријте пакет за надградба на мрежата</string>
+	<string name="title_local_notify">Наоѓа локален пакет за надградба</string>
+	
+	<!-- tip infomation -->
+	<string name="tip_local_hasfile">Откријте го локалниот пакет за надградба, дали сакате да го надградите сега?</string>
+	<string name="tip_local_nofile">Пакетот за локална надградба не е пронајден. Ве молиме ставете update.zip во root директориумот на USB-уредот!</string>
+	<string name="tip_force_update">Системот ќе почне да се надоградува по %1$d секунди, ве молиме не исклучувајте ја моќта!</string>
+	
+	<string name="tip_update_verifying">Пакетот за надградба е потврден, ве молиме не исклучувајте ја моќта!</string>
+	<string name="tip_update_verify_stop">Заврши надградбата на пакетот на пакети!</string>
+	<string name="tip_update_verify_success">Верификацијата на пакетот за надградба е завршена, а потоа ќе се инсталира!</string>
+	<string name="tip_update_verify_fail">Предупредување: Надградбата на проверка на пакетот не успеа, потврдете дали пакетот за надградба се совпаѓа со тековниот систем!</string>
+	
+	<string name="tip_update_checking">Проверка на ажурирања ....</string>
+	<string name="tip_update_check_fail">Проверка на грешка при ажурирање!</string>
+	<string name="tip_update_version_latest">Моментално е најновата верзија!</string>
+	
+	<string name="tip_downloaded">Преземени: </string>
+	<string name="tip_download_pause">Преземањето е паузирано: </string>
+	<string name="tip_download_fail">Неуспешно преземање на надградбата на пакетот ....</string>
+	<string name="tip_download_stop">Преземањето е запрено ....</string>
+	<string name="tip_download_success">Пакетот за надградба е преземен. Дали сакате да го надградите сега? Не исклучувајте го процесот за надградба!</string>
+	
+	<string name="tip_update_nospace">Големина на надградба на датотеката е %1$s, а внатрешниот простор за складирање е %2$s!</string>
+	
+	<string name="tip_update_result_success">Честитки за надградбата!</string>
+	<string name="tip_update_result_failed">Извинете надградбата не успеа!</string>
+	
+	<string name="tip_remote_find_newversion">Наоѓа новата верзија!</string>
+	<string name="tip_update_zip_path">Надградба на патеката на пакети: </string>
+	<string name="tip_update_zip_length">Надградба на големината на пакетот: </string>
+	<string name="tip_update_zip_version">Надградба на верзијата на пакетот: </string>
+	
+	<string name="tip_system_version">Тековна верзија: </string>
+	<string name="tip_system_builddate">Изградба датум: </string>
+	
+	<!-- button infomation -->
+	<string name="str_btn_update_now">Надградба</string>
+	<string name="str_btn_update_cancel">Откажи</string>
+	<string name="str_btn_update_notyet">Отпад</string>
+	
+	<string name="str_btn_verify_cancle">Откажи</string>
+	<string name="str_btn_verify_again">Повторно потврди</string>
+	<string name="str_btn_check_again">повторување</string>
+	
+	<string name="str_btn_download_begin">Старт</string>
+	<string name="str_btn_download_pause">Пауза</string>
+	<string name="str_btn_download_goon">Продолжи</string>
+	<string name="str_btn_download_again">Повторно</string>
+	<string name="str_btn_download_bg">Авто</string>
+	
+	<string name="str_btn_close">Затвори</string>
+	
+	<!-- other info -->
+	<string name="str_storage_default">Отстранлив диск</string>
+	<string name="str_inner_storage">Внатрешно складирање</string>
+	
+	
+</resources>

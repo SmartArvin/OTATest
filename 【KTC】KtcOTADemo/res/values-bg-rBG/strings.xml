@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Обновяване на системата</string>
+    <string name="title_local_update">Местна надстройка</string>
+    <string name="title_remote_update">Надстройка в мрежата</string>
+    <string name="title_install_reboot">инсталирате надстройка</string>
+    <string name="title_nospace_notify">Недостатъчно място за съхранение</string>
+    <string name="title_remote_notify">Открийте пакет за обновяване на мрежата</string>
+    <string name="title_local_notify">Намерен е локален пакет за надстройка</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Открийте локалния пакет за надстройка, искате ли да надстроите сега?</string>
+    <string name="tip_local_nofile">Местният пакет за надстройка не е намерен. Моля, поставете пакет за актуализация update.zip в главната директория на USB устройството!</string>
+    <string name="tip_force_update">Системата ще стартира надстройката след %1$d секунди, моля не изключвайте захранването!</string>
+    
+    <string name="tip_update_verifying">Пакетът за надстройка се проверява, моля, не изключвайте захранването!</string>
+    <string name="tip_update_verify_stop">Проверката на пакет за надстройка е спряна!</string>
+    <string name="tip_update_verify_success">Проверката на пакета за надстройка е завършена, надстройката ще започне!</string>
+    
+    <string name="tip_update_verify_fail">Предупреждение: Неуспешно потвърждаване на софтуерен пакет, моля потвърдете дали пакетът за актуализация съответства на настоящата софтуерна система!</string>
+    
+    <string name="tip_update_checking">открива актуализации ....</string>
+    <string name="tip_update_check_fail">Откриване на грешка при обновяването!</string>
+    
+    <string name="tip_update_version_latest">в момента е най-новата версия!</string>
+    
+    <string name="tip_downloaded">Изтеглено: </string>
+    <string name="tip_download_pause">Изтеглянето е спряно: </string>
+    <string name="tip_download_fail">Неуспешно изтегляне на пакетния пакет ....</string>
+    <string name="tip_download_stop">Изтеглянето е прекратено ....</string>
+    <string name="tip_download_success">Пакетът за надстройка е изтеглен. Искате ли да надстроите сега? Не изключвайте устройството по време на процеса на надграждане!</string>
+    
+    <string name="tip_update_nospace">Размерът на файла за надстройка е %1$s, а свободното пространство за вътрешно съхранение е %2$s!</string>
+    <string name="tip_update_result_success">Поздравления за надграждането!</string>
+    <string name="tip_update_result_failed">За съжаление обновяването е неуспешно!</string>
+    
+    <string name="tip_remote_find_newversion">Намерена е нова версия!</string>
+    <string name="tip_update_zip_path">Път за обновяване на пакета: </string>
+    <string name="tip_update_zip_length">Надстройване на размера на пакета: </string>
+    <string name="tip_update_zip_version">Версия на пакет за надстройка: </string>
+    
+    <string name="tip_system_version">текущата версия: </string>
+    <string name="tip_system_builddate">Време за освобождаване: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Надстройка сега</string>
+    <string name="str_btn_update_cancel">анулирате надстройката</string>
+    <string name="str_btn_update_notyet">Не е надстроен</string>
+    
+    <string name="str_btn_verify_cancle">отмени проверката</string>
+    <string name="str_btn_verify_again">потвърдете повторно</string>
+    <string name="str_btn_check_again">Retest</string>
+    
+    <string name="str_btn_download_begin">Започнете изтеглянето на</string>
+    <string name="str_btn_download_pause">спиране на изтеглянето</string>
+    <string name="str_btn_download_goon">Продължете да изтегляте</string>
+    <string name="str_btn_download_again">Повторно изтегляне</string>
+    <string name="str_btn_download_bg">Изтегляне на заден план</string>
+    
+    <string name="str_btn_close">Затвори</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Преносим диск</string>
+    <string name="str_inner_storage">Вътрешна памет</string>
+    
+    
+</resources>

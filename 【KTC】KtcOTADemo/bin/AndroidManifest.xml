@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.systemupdate.service"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="19"
+    android:versionName="2.19.12.13.1" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" 
+        android:maxSdkVersion="26"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.systemupdate.permission.SHOW_UI" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.ACCESS_MTP" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.mstar.android.permissionn.ACCESS_TV_DATA" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    
+
+    <application
+        android:name="com.ktc.ota.main.application.OtaUpdateApplication"
+        android:allowBackup="true"
+        android:supportsRtl="false"
+        android:icon="@drawable/ota_normal"
+        android:label="@string/title_system_update"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+        <!-- MStar Android Patch Begin -->
+        <uses-library android:name="com.mstar.android" />
+        <!-- MStar Android Patch End -->
+        
+        <!--{{{for KTCProductNumber  start -->
+        <meta-data
+            android:name="KTCProductNumber"
+            android:value="1000" />
+        <!--{{{for KTCProductNumber  end -->
+        
+        <!--{{{for KtcProductFlag  start -->
+        <meta-data
+            android:name="KtcProductFlag"
+            android:value="ktc.flag.keep.alive" >
+        </meta-data>
+		<!--{{{for KtcProductFlag  end -->
+
+        <!-- 静态广播接收器 -->
+        <receiver android:name="com.ktc.ota.main.service.OtaUpdateMonitorReceiver" >
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.STR_BOOT_COMPLETED" />
+                <action android:name="android.hardware.usb.action.USB_STATE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.CLOSE_SYSTEM_DIALOGS"/>
+            </intent-filter>
+            
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_REMOVED" />
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <data android:scheme="file" />
+            </intent-filter>
+            
+        </receiver>
+        
+        <!-- OTA升级升级后台检测服务 -->
+        <service android:name="com.ktc.ota.main.service.OtaUpdateMonitorService" 
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="ktc.ota.action.OtaUpdateMonitorService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        
+        <!-- OTA升级服务保活 -->
+        <service android:name="com.ktc.ota.main.service.OtaKeepAliveService" 
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="ktc.ota.action.OtaKeepAliveService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <!-- 远程OTA升级包下载服务 -->
+        <service android:name="com.ktc.ota.download.DownloadService" 
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="ktc.ota.action.DownloadService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <!-- 空间不足提示 -->
+        <activity
+            android:name="android.systemupdate.activitys.NotifyNoSpaceActivity"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:theme="@style/DialogStyle" >
+            <intent-filter>
+                <action android:name="ktc.ota.action.NotifyNoSpace" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 强制升级提示 -->
+        <activity
+            android:name="android.systemupdate.activitys.NotifyForceUpdateActivity"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:theme="@style/DialogStyle" >
+            <intent-filter>
+                <action android:name="ktc.ota.action.NotifyForceUpdate" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <!-- 远程OTA升级包检测提示窗 -->
+        <activity
+            android:name="android.systemupdate.activitys.NotifyRemoteUpdateActivity"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:theme="@style/DialogStyle" >
+            <intent-filter>
+                <action android:name="ktc.ota.action.NotifyRemoteUpdate" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 后台下载完成后的升级提示画面 -->
+        <activity android:name="android.systemupdate.activitys.NotifyInstallAndRebootActivity"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:theme="@style/DialogStyle">
+            <intent-filter>
+                <action android:name="ktc.ota.action.NotifyInstallAndReboot" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- OTA升级结果提示 -->
+        <activity
+            android:name="android.systemupdate.activitys.NotifyUpdateResultAcitivity"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:theme="@style/DialogStyle" >
+            <intent-filter>
+                <action android:name="ktc.ota.action.NotifyUpdateResult" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- USB挂载后有升级包时的通知界面 -->
+        <activity
+            android:name="android.systemupdate.activitys.NotifyLocalUpdateActivity"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:theme="@style/DialogStyle" >
+            <intent-filter>
+                <action android:name="ktc.ota.action.NotifyLocalUpdate" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 设置(本地升级)进入软件升级主入口 -->
+        <activity
+            android:name="android.systemupdate.activitys.LocalCheckActivity"
+            android:icon="@drawable/ota_normal"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:launchMode="singleInstance"
+        	android:excludeFromRecents="true" >
+            <intent-filter >
+                <action android:name="ktc.ota.action.LocalCheck"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 设置(网络升级)进入软件升级主入口 -->
+        <activity
+            android:name="android.systemupdate.activitys.SettingActivity"
+            android:icon="@drawable/ota_normal"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleInstance"
+        	android:excludeFromRecents="true">
+            <intent-filter >
+                <action android:name="ktc.ota.action.RemoteCheck"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 动态更新icon图标         start -->
+         <activity-alias
+            android:name="android.systemupdate.activitys.icon_normal"
+            android:enabled="true"
+            android:icon="@drawable/ota_normal"
+            android:label="@string/title_system_update"
+            android:targetActivity="android.systemupdate.activitys.SettingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name="android.systemupdate.activitys.icon_update"
+            android:enabled="false"
+            android:icon="@drawable/ota_update"
+            android:label="@string/title_system_update"
+            android:targetActivity="android.systemupdate.activitys.SettingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+        </activity-alias>
+        <!-- 动态更新icon图标         end -->
+        
+    </application>
+
+</manifest>

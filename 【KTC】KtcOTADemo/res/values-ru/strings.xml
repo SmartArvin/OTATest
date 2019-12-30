@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">Обновление системы</string>
+    <string name="title_local_update">Локальное обновление</string>
+    <string name="title_remote_update">Обновление сети</string>
+    <string name="title_install_reboot">Установить</string>
+    <string name="title_nospace_notify">Недостаточно места для хранения</string>
+    <string name="title_remote_notify">Обнаружить пакет обновления сети</string>
+    <string name="title_local_notify">Найден локальный пакет обновления</string>
+    
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Откройте для себя локальный пакет обновления, хотите обновить сейчас?</string>
+    <string name="tip_local_nofile">Локальный пакет обновления не найден. Пожалуйста, поместите файл update.zip в корневой каталог USB-устройства!</string>
+    <string name="tip_force_update">Система начнет обновление через %1$d секунд, не выключайте питание!</string>
+    
+    <string name="tip_update_verifying">Пакет обновления проверяется, не отключайте питание!</string>
+    <string name="tip_update_verify_stop">Проверка пакета обновления остановлена!</string>
+    <string name="tip_update_verify_success">Проверка пакета обновления завершена, а затем будет установлен!</string>
+    <string name="tip_update_verify_fail">Предупреждение. Ошибка проверки пакета обновления. Проверьте, соответствует ли пакет обновления текущей системе!</string>
+    
+    <string name="tip_update_checking">Проверка обновлений ....</string>
+    <string name="tip_update_check_fail">Проверка ошибки обновления!</string>
+    <string name="tip_update_version_latest">В настоящее время последняя версия!</string>
+    
+    <string name="tip_downloaded">Загружено: </string>
+    <string name="tip_download_pause">Загрузка приостановлена: </string>
+    <string name="tip_download_fail">Ошибка загрузки пакета обновления ....</string>
+    <string name="tip_download_stop">Загрузка была остановлена ​​....</string>
+    <string name="tip_download_success">Пакет обновления был загружен. Хотите обновить сейчас? Не выключайте питание во время процесса обновления!</string>
+    
+    <string name="tip_update_nospace">Размер файла обновления составляет %1$s, а свободное место во внутренней памяти %2$s!</string>
+    
+    <string name="tip_update_result_success">Поздравляем с обновлением!</string>
+    <string name="tip_update_result_failed">Извините, обновление не удалось!</string>
+    
+    <string name="tip_remote_find_newversion">Найдена новая версия!</string>
+    <string name="tip_update_zip_path">Путь к пакету обновления: </string>
+    <string name="tip_update_zip_length">Размер пакета обновления: </string>
+    <string name="tip_update_zip_version">Версия пакета обновления: </string>
+    
+    <string name="tip_system_version">Текущая версия: </string>
+    <string name="tip_system_builddate">Дата сборки: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Обновить</string>
+    <string name="str_btn_update_cancel">Отмена</string>
+    <string name="str_btn_update_notyet">Конец</string>
+    
+    <string name="str_btn_verify_cancle">Отмена</string>
+    <string name="str_btn_verify_again">Повторная проверка</string>
+    <string name="str_btn_check_again">Повторное тестирование</string>
+    
+    <string name="str_btn_download_begin">Начните</string>
+    <string name="str_btn_download_pause">Пауза</string>
+    <string name="str_btn_download_goon">Продолжить</string>
+    <string name="str_btn_download_again">Снова</string>
+    <string name="str_btn_download_bg">Авто</string>
+    
+    <string name="str_btn_close">Закрыть</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Съемный диск</string>
+    <string name="str_inner_storage">Внутреннее хранилище</string>
+    
+</resources>

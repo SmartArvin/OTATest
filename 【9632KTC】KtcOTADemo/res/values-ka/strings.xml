@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">სისტემის განახლება </string>
+    <string name="title_local_update">ადგილობრივი განახლება </string>
+    <string name="title_remote_update">ქსელის განახლება </string>
+    <string name="title_install_reboot">ინსტალაცია </string>
+    <string name="title_nospace_notify">არასაკმარისი შენახვის სივრცე </string>
+    <string name="title_remote_notify">ქსელის განახლების პაკეტის აღმოჩენა </string>
+    <string name="title_local_notify">ნაპოვნია ადგილობრივი განახლების პაკეტი </string>
+    
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">აღმოაჩინე ადგილობრივი განახლების პაკეტი, გსურთ განაახლეთ ახლა?</string>
+    <string name="tip_local_nofile">ადგილობრივი განახლების პაკეტი არ არის ნაპოვნი. გთხოვთ, განაახლოთ update.zip- ის USB მოწყობილობის ძირეული დირექტორიაში!</string>
+    <string name="tip_force_update">სისტემის განახლება დაიწყება შემდეგ  %1$d წამში, გთხოვთ, გამორთოთ ძალა!</string>
+    
+    <string name="tip_update_verifying">განახლების პაკეტი შემოწმებულია, გთხოვთ, არ გამორთოთ ძალა!</string>
+    <string name="tip_update_verify_stop">განახლების პაკეტის შემოწმება შეჩერდა!</string>
+    <string name="tip_update_verify_success">განახლების პაკეტის გადამოწმება დასრულებულია, დაინსტალირდება!</string>
+    <string name="tip_update_verify_fail">გაფრთხილება: განახლების პაკეტის გადამოწმება ვერ მოხერხდა, გთხოვთ, დაადასტუროთ, განახლებული პაკეტი შეესაბამება მიმდინარე სისტემას!</string>
+    
+    <string name="tip_update_checking">განახლებების შემოწმება ....</string>
+    <string name="tip_update_check_fail">შემოწმების გაუქმების შემოწმება!</string>
+    <string name="tip_update_version_latest">ამჟამად უახლესი ვერსიაა!</string>
+    
+    <string name="tip_downloaded">გადმოწერილი: </string>
+    <string name="tip_download_pause">გადმოტვირთვა შეჩერებულია: </string>
+    <string name="tip_download_fail">განახლების პაკეტის ჩამოტვირთვა ვერ განხორციელდა ....</string>
+    <string name="tip_download_stop">ჩამოტვირთვა შეწყდა ....</string>
+    <string name="tip_download_success">განახლებული პაკეტი გადმოწერილია. გსურთ განაახლეთ ახლა? არ განახლდება პროცესის დროს!</string>
+    
+    <string name="tip_update_nospace">ფაილის ზომა არის  %1$s და შიდა მეხსიერების თავისუფალი სივრცე  %2$s!</string>
+    
+    <string name="tip_update_result_success">გილოცავთ განახლებას!</string>
+    <string name="tip_update_result_failed">უკაცრავად განახლება ვერ მოხერხდა!</string>
+    
+    <string name="tip_remote_find_newversion">ახალი ვერსია აღმოაჩინეს!</string>
+    <string name="tip_update_zip_path">პაკეტის გაუმჯობესების გზა: </string>
+    <string name="tip_update_zip_length">პაკეტის ზომა განახლება: </string>
+    <string name="tip_update_zip_version">განახლების პაკეტის ვერსია: </string>
+    
+    <string name="tip_system_version">მიმდინარე ვერსია: </string>
+    <string name="tip_system_builddate">აშენების თარიღი: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">განახლება </string>
+    <string name="str_btn_update_cancel">გაუქმება </string>
+    <string name="str_btn_update_notyet">დათმო</string>
+    
+    <string name="str_btn_verify_cancle">გაუქმება </string>
+    <string name="str_btn_verify_again">ხელახლა გადაამოწმეთ </string>
+    <string name="str_btn_check_again">ისევ</string>
+    
+    <string name="str_btn_download_begin">დაწყება</string>
+    <string name="str_btn_download_pause">პაუზის</string>
+    <string name="str_btn_download_goon">გაგრძელება</string>
+    <string name="str_btn_download_again">ისევ</string>
+    <string name="str_btn_download_bg">ავტო</string>
+    
+    <string name="str_btn_close">დახურვა</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">მოხსნადი დისკის</string>
+    <string name="str_inner_storage">შიდა შენახვის</string>
+    
+    
+</resources>

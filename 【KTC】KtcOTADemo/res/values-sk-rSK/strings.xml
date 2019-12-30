@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">Aktualizácia systému</string>
+    <string name="title_local_update">Miestna aktualizácia</string>
+    <string name="title_remote_update">Sieťová inovácia</string>
+    <string name="title_install_reboot">nainštalovať upgrade</string>
+    <string name="title_nospace_notify">Nedostatočný úložný priestor</string>
+    <string name="title_remote_notify">Objavte balík aktualizácie siete</string>
+    <string name="title_local_notify">Nájdené lokálne aktualizačné balíky</string>
+    
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Objavte balík miestnych aktualizácií, ktorý chcete teraz aktualizovať?</string>
+	<string name="tip_local_nofile">Lokálny balík pre inováciu nebol nájdený. ​​Prosím vložte aktualizačný balík update.zip do koreňového adresára USB zariadenia!</string>
+	<string name="tip_force_update">Systém spustí aktualizáciu po %1$d sekundách, prosím, nevypínajte napájanie!</string>
+	
+	
+	<string name="tip_update_verifying">Overovací balík sa overuje, prosím, nevypínajte napájanie!</string>
+	<string name="tip_update_verify_stop">Overenie aktualizácie balíka sa zastavilo.</string>
+	<string name="tip_update_verify_success">Overenie balíčka aktualizácií je dokončené, aktualizácia sa spustí.</string>
+	
+	<string name="tip_update_verify_fail">Upozornenie: Overenie aktualizácie balíka softvéru zlyhalo, potvrďte prosím, či sa aktualizačný balík zhoduje s aktuálnym softvérovým systémom.</string>
+	
+	<string name="tip_update_checking">ZSisťuje aktualizácie ....</string>
+	<string name="tip_update_check_fail">Detekcia zlyhania aktualizácie!</string>
+	
+	<string name="tip_update_version_latest">je momentálne najnovšia verzia!</string>
+	
+	<string name="tip_downloaded">Stiahnuté: </string>
+	<string name="tip_download_pause">Stiahnutie bolo pozastavené: </string>
+	<string name="tip_download_fail">Aktualizácia balíka zlyhala ....</string>
+	<string name="tip_download_stop">Stiahnutie bolo ukončené ....</string>
+	<string name="tip_download_success">Aktualizačný balík bol stiahnutý. Chcete teraz aktualizovať? Počas procesu aktualizácie sa nevypínajte!</string>
+	
+	<string name="tip_update_nospace">Veľkosť súboru aktualizácie je %1$s a interné voľné miesto v pamäti je %2$s!</string>
+	<string name="tip_update_result_success">Gratulujeme k aktualizácii!</string>
+	<string name="tip_update_result_failed">Prepáčte upgrade zlyhal!</string>
+	
+	<string name="tip_remote_find_newversion">Nájdená nová verzia!</string>
+	<string name="tip_update_zip_path">Cesta k aktualizácii balíka: </string>
+	<string name="tip_update_zip_length">Aktualizovať veľkosť balíka: </string>
+	<string name="tip_update_zip_version">Aktualizovať verziu balíka: </string>
+	
+	<string name="tip_system_version">Aktuálna verzia: </string>
+	<string name="tip_system_builddate">čas vydania: </string>
+	
+	
+	<!-- button infomation -->
+	<string name="str_btn_update_now">Aktualizovať teraz</string>
+	<string name="str_btn_update_cancel">Zrušiť aktualizáciu</string>
+	<string name="str_btn_update_notyet">Nie je aktualizovaný</string>
+	
+	<string name="str_btn_verify_cancle">Zrušiť overenie</string>
+	<string name="str_btn_verify_again">Znovu overiť</string>
+	<string name="str_btn_check_again">Znovu</string>
+	
+	<string name="str_btn_download_begin">Začať preberať</string>
+	<string name="str_btn_download_pause">Pozastaviť sťahovanie</string>
+	<string name="str_btn_download_goon">Pokračujte v preberaní</string>
+	<string name="str_btn_download_again">Znova stiahnuť</string>
+	<string name="str_btn_download_bg">Stiahnutie zálohy</string>
+	
+	<string name="str_btn_close">Zavrieť</string>
+	
+	
+	<!-- other info -->
+	<string name="str_storage_default">Vymeniteľný disk</string>
+	<string name="str_inner_storage">Interná pamäť</string>
+	
+</resources>

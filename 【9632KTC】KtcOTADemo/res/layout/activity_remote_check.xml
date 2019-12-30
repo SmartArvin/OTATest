@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:android_custom="http://schemas.android.com/apk/res/android.systemupdate.service"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:clipChildren="false"
+     android:clipToPadding="false"
+     android:orientation="vertical"
+     android:padding="75dp"
+     android:background="@drawable/main_background">
+
+    <!-- head layout -->
+    <RelativeLayout 
+        android:id="@+id/remote_update_head_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+	        android:id="@+id/remote_update_title_img"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/arrow_left"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        />
+	    <TextView
+	        android:id="@+id/remote_update_title_txt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/remote_update_title_img"
+	        android:layout_marginStart="43dp"
+	        android:layout_centerVertical="true"
+	        android:text="@string/title_remote_update"
+	        android:textColor="#ffffffff"
+	        android:textSize="32sp"
+	        />
+    </RelativeLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- currrent system information layout -->
+    <RelativeLayout 
+        android:id="@+id/remote_update_info_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/remote_update_head_ly"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+	    <ImageView 
+	        android:id="@+id/remote_update_info_img"
+	        android:layout_width="220dp"
+	        android:layout_height="128dp"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/rotating"
+	        />
+        
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/remote_update_info_img"
+	        android:layout_centerVertical="true"
+	        android:orientation="vertical"
+	        >
+	        <com.ktc.ota.views.MarqueeTextView
+		        android:id="@+id/remote_update_info_version_name"
+		        android:layout_width="350dp"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true"
+		        android:ellipsize="marquee"
+		        android:marqueeRepeatLimit="marquee_forever"
+		        android:textColor="#ffffffff"
+		        android:textSize="28sp"/>
+	        
+	        <com.ktc.ota.views.MarqueeTextView
+		        android:id="@+id/remote_update_info_date_size"
+		        android:layout_width="350dp"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true"
+		        android:ellipsize="marquee"
+		        android:marqueeRepeatLimit="marquee_forever"
+		        android:textColor="#ffffffff"
+		        android:textSize="28sp"/>
+	    </LinearLayout>
+    </RelativeLayout>
+    
+
+    
+    
+    
+    <!-- ota information layout -->
+    <RelativeLayout 
+        android:id="@+id/remote_update_status_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/remote_update_info_ly"
+        android:layout_alignLeft="@+id/remote_update_info_ly"
+        android:layout_alignRight="@+id/remote_update_info_ly"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        >
+	    <ProgressBar 
+	        android:id="@+id/remote_update_check_progress"
+	        android:layout_width="55dp"
+	        android:layout_height="55dp"
+	        android:layout_alignParentLeft="true"
+	        android:indeterminateDrawable="@drawable/progressbar"
+	        />
+        
+        <TextView
+	        android:id="@+id/remote_update_status_info"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/remote_update_check_progress"
+	        android:layout_marginLeft="25dp"
+	        android:layout_centerVertical="true"
+	        android:textColor="#ffffffff"
+	        android:textSize="26sp"/>
+    </RelativeLayout>
+
+
+    
+    
+    
+    
+    
+    <!-- for button layout -->
+    <LinearLayout
+        android:id="@+id/remote_update_btn_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" 
+        android:visibility="invisible"
+        >
+
+        <Button
+            android:id="@+id/remote_update_btn_cancel"
+            android:layout_width="200dp"
+        	android:layout_height="80dp"
+        	android:paddingLeft="20dp"
+        	android:paddingRight="20dp"
+        	android:singleLine="true"
+	        android:ellipsize="marquee"
+	        android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:background="@drawable/selector_btn" />
+
+        <com.ktc.ota.views.RoundProgressBar
+            android:id="@+id/remote_update_progress"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginRight="95dp"
+            android:max="100"
+            android:progress="0"
+            android_custom:roundColor="#70FFFFFF"
+            android_custom:roundProgressColor="#FFFFFFFF"
+            android_custom:roundWidth="2dp"
+            android_custom:textColor="#FFFFFF"
+            android_custom:textIsDisplayable="true"
+            android_custom:textSize="20dp" />
+
+        <Button
+            android:id="@+id/remote_update_btn_close"
+            android:layout_width="200dp"
+        	android:layout_height="80dp"
+        	android:paddingLeft="20dp"
+        	android:paddingRight="20dp"
+        	android:singleLine="true"
+	        android:ellipsize="marquee"
+	        android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:background="@drawable/selector_btn" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">Actualización de sistema</string>
+    <string name="title_local_update">Actualización local</string>
+    <string name="title_remote_update">Actualización de red</string>
+    <string name="title_install_reboot">Instalar</string>
+    <string name="title_nospace_notify">Espacio de almacenamiento insuficiente</string>
+    <string name="title_remote_notify">Descubra el paquete de actualización de red</string>
+    <string name="title_local_notify">Paquete de actualización local encontrado</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Descubra el paquete de actualización local, ¿desea actualizar ahora?</string>
+    <string name="tip_local_nofile">No se encuentra el paquete de actualización local. ¡Coloque el update.zip en el directorio raíz del dispositivo USB!</string>
+    <string name="tip_force_update">El sistema comenzará a actualizarse después de %1$d segundos, ¡no apague la alimentación!</string>
+    
+    <string name="tip_update_verifying">Se está verificando el paquete de actualización, ¡no apague la alimentación!</string>
+    <string name="tip_update_verify_stop">¡La verificación del paquete de actualización se ha detenido!</string>
+    <string name="tip_update_verify_success">La verificación del paquete de actualización se completó, ¡entonces se instalará!</string>
+    <string name="tip_update_verify_fail">Advertencia: la verificación del paquete de actualización falló, ¡confirme si el paquete de actualización coincide con el sistema actual!</string>
+    
+    <string name="tip_update_checking">Comprobando actualizaciones ....</string>
+    <string name="tip_update_check_fail">¡Comprobando el error de actualización!</string>
+    <string name="tip_update_version_latest">¡Actualmente es la última versión!</string>
+    
+    <string name="tip_downloaded">Descargado: </string>
+    <string name="tip_download_pause">La descarga se ha detenido: </string>
+    <string name="tip_download_fail">Falló la descarga del paquete de actualización ....</string>
+    <string name="tip_download_stop">La descarga se ha detenido ....</string>
+    <string name="tip_download_success">El paquete de actualización se ha descargado. ¿Quieres actualizar ahora? ¡No apague durante el proceso de actualización!</string>
+    
+    <string name="tip_update_nospace">El tamaño del archivo de actualización es %1$s y el espacio libre de almacenamiento interno es %2$s!</string>
+    
+    <string name="tip_update_result_success">¡Felicitaciones por la actualización!</string>
+    <string name="tip_update_result_failed">Lo sentimos, ¡la actualización falló!</string>
+    
+    <string name="tip_remote_find_newversion">¡Nueva versión encontrada!</string>
+    <string name="tip_update_zip_path">Actualizar la ruta del paquete: </string>
+    <string name="tip_update_zip_length">Actualizar el tamaño del paquete: </string>
+    <string name="tip_update_zip_version">Versión del paquete de actualización: </string>
+    
+    <string name="tip_system_version">Versión actual: </string>
+    <string name="tip_system_builddate">Fecha de compilación: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Actualizar</string>
+    <string name="str_btn_update_cancel">Cancelar</string>
+    <string name="str_btn_update_notyet">Fin</string>
+    
+    <string name="str_btn_verify_cancle">Cancelar</string>
+    <string name="str_btn_verify_again">Volver a verificar</string>
+    <string name="str_btn_check_again">Volver a probar</string>
+    
+    <string name="str_btn_download_begin">Comienzo</string>
+    <string name="str_btn_download_pause">Pausa</string>
+    <string name="str_btn_download_goon">Continuar</string>
+    <string name="str_btn_download_again">Repetir</string>
+    <string name="str_btn_download_bg">Automático</string>
+    
+    <string name="str_btn_close">Cerrar</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Disco extraíble</string>
+    <string name="str_inner_storage">Internal Storage</string>
+    
+    
+</resources>

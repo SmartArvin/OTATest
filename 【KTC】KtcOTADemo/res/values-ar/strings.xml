@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    <!-- title information -->
+    <string name="title_system_update">ترقية النظام</string>
+    <string name="title_local_update">الترقية المحلية</string>
+    <string name="title_remote_update">ترقية الشبكة</string>
+    <string name="title_install_reboot">التثبيت</string>
+    <string name="title_nospace_notify">مساحة تخزين غير كافية</string>
+    <string name="title_remote_notify">اكتشف حزمة ترقية الشبكة</string>
+    <string name="title_local_notify">تم العثور على حزمة الترقية المحلية</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">اكتشف حزمة الترقية المحلية ، هل تريد الترقية الآن؟</string>
+    <string name="tip_local_nofile">لم يتم العثور على حزمة الترقية المحلية. يرجى وضع update.zip في الدليل الجذر لجهاز USB!</string>
+    <string name="tip_force_update">سيبدأ النظام في الترقية بعد%1$d ثانية ، يرجى عدم إيقاف تشغيل الطاقة!</string>
+    
+    <string name="tip_update_verifying">يتم التحقق من حزمة الترقية ، يرجى عدم إيقاف تشغيل الطاقة!</string>
+    <string name="tip_update_verify_stop">توقف التحقق من حزمة الترقية!</string>
+    <string name="tip_update_verify_success">اكتمل التحقق من حزمة الترقية ، ثم سيتم التثبيت!</string>
+    <string name="tip_update_verify_fail">تحذير: فشل التحقق من حزمة الترقية ، يرجى تأكيد ما إذا كانت حزمة الترقية تتوافق مع النظام الحالي!</string>
+    
+    <string name="tip_update_checking">التحقق من التحديثات ....</string>
+    <string name="tip_update_check_fail">التحقق من فشل التحديث!</string>
+    <string name="tip_update_version_latest">هو أحدث إصدار حاليًا!</string>
+    
+    <string name="tip_downloaded">تم التنزيل: </string>
+    <string name="tip_download_pause">تم إيقاف التنزيل مؤقتًا: </string>
+    <string name="tip_download_fail">فشل تنزيل حزمة الترقية ....</string>
+    <string name="tip_download_stop">تم إيقاف التنزيل ....</string>
+    <string name="tip_download_success">تم تنزيل حزمة الترقية. هل تريد الترقية الآن؟ لا تقم بإيقاف التشغيل أثناء عملية الترقية!</string>
+    
+    <string name="tip_update_nospace">حجم ملف الترقية هو%1$s ومساحة التخزين الداخلية الخالية هي%2$s!</string>
+    
+    <string name="tip_update_result_success">تهانينا على الترقية!</string>
+    <string name="tip_update_result_failed">عذرًا ، فشلت الترقية!</string>
+    
+    <string name="tip_remote_find_newversion">العثور على إصدار جديد!</string>
+    <string name="tip_update_zip_path">مسار حزمة الترقية: </string>
+    <string name="tip_update_zip_length">ترقية حجم الحزمة: </string>
+    <string name="tip_update_zip_version">إصدار حزمة الترقية: </string>
+    
+    <string name="tip_system_version">الإصدار الحالي: </string>
+    <string name="tip_system_builddate">تاريخ الإنشاء: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">الترقية</string>
+    <string name="str_btn_update_cancel">إلغاء</string>
+    <string name="str_btn_update_notyet">التخلي عن</string>
+    
+    <string name="str_btn_verify_cancle">إلغاء</string>
+    <string name="str_btn_verify_again">أعد التحقق</string>
+    <string name="str_btn_check_again">إعادة الاختبار</string>
+    
+    <string name="str_btn_download_begin">ابدأ</string>
+    <string name="str_btn_download_pause">إيقاف مؤقت</string>
+    <string name="str_btn_download_goon">متابعة</string>
+    <string name="str_btn_download_again">مرة أخرى</string>
+    <string name="str_btn_download_bg">تلقائي</string>
+    
+    <string name="str_btn_close">إغلاق</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">القرص القابل للإزالة</string>
+    <string name="str_inner_storage">التخزين الداخلي</string>
+    
+    
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- title information -->
+    <string name="title_system_update">Upgrade systému</string>
+    <string name="title_local_update">Místní upgrade</string>
+    <string name="title_remote_update">Upgrade sítě</string>
+    <string name="title_install_reboot">install upgrade</string>
+    <string name="title_nospace_notify">Nedostatek úložného prostoru</string>
+    <string name="title_remote_notify">Objevte balíček pro upgrade sítě</string>
+    <string name="title_local_notify">Nalezen lokální balíček pro upgrade</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Objevte místní balíček pro upgrade, který chcete nyní upgradovat?</string>
+    <string name="tip_local_nofile">Místní upgrade balíček nebyl nalezen. Prosím vložte aktualizační balíček update.zip do kořenového adresáře USB zařízení!</string>
+    <string name="tip_force_update">Systém spustí upgrade po %1$d sekundách, prosím, nevypínejte napájení!</string>
+    
+    <string name="tip_update_verifying">Aktualizační balíček je ověřován, prosím, nevypínejte napájení!</string>
+    <string name="tip_update_verify_stop">Ověřování upgradu balíku se zastavilo.</string>
+    <string name="tip_update_verify_success">Ověření aktualizačního balíčku je dokončeno, upgrade se spustí.</string>
+    <string name="tip_update_verify_fail">Varování: Selhalo ověření aktualizace balíku softwaru, potvrďte prosím, zda se balíček aktualizace shoduje s aktuálním softwarovým systémem.</string>
+    
+    <string name="tip_update_checking">zjišťuje aktualizace ....</string>
+    <string name="tip_update_check_fail">Detekce selhání aktualizace!</string>
+    <string name="tip_update_version_latest">je aktuálně nejnovější verzí!</string>
+    
+    <string name="tip_downloaded">Staženo: </string>
+    <string name="tip_download_pause">Stahování bylo pozastaveno: </string>
+    <string name="tip_download_fail">Stahování aktualizací balíčků selhalo.</string>
+    <string name="tip_download_stop">Stahování bylo ukončeno ....</string>
+    <string name="tip_download_success">Aktualizační balíček byl stažen. Chcete nyní provést upgrade? Nevypínejte během procesu upgradu!</string>
+    
+    <string name="tip_update_nospace">Velikost souboru aktualizace je %1$s a volné místo na úložišti je %2$s!</string>
+    <string name="tip_update_result_success">Gratulujeme k upgradu!</string>
+    <string name="tip_update_result_failed">Omlouváme se upgrade selhal!</string>
+    
+    <string name="tip_remote_find_newversion">Byla nalezena nová verze!</string>
+    <string name="tip_update_zip_path">Upgrade balíček cestu: </string>
+    <string name="tip_update_zip_length">Aktualizovat velikost balíčku: </string>
+    <string name="tip_update_zip_version">Aktualizovat verzi balíčku: </string>
+    
+    <string name="tip_system_version">aktuální verze: </string>
+    <string name="tip_system_builddate">doba vydání: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Aktualizovat nyní</string>
+    <string name="str_btn_update_cancel">zrušit upgrade</string>
+    <string name="str_btn_update_notyet">Není upgradováno</string>
+    
+    <string name="str_btn_verify_cancle">zrušit ověření</string>
+    <string name="str_btn_verify_again">znovu ověřit</string>
+    <string name="str_btn_check_again">Opakovat</string>
+    
+    <string name="str_btn_download_begin">Začněte stahovat</string>
+    <string name="str_btn_download_pause">pozastavit stahování</string>
+    <string name="str_btn_download_goon">Pokračujte v stahování</string>
+    <string name="str_btn_download_again">Znovu stáhnout</string>
+    <string name="str_btn_download_bg">Stahování zálohy</string>
+    
+    <string name="str_btn_close">zavřít</string>
+    
+    
+    <!-- other info -->
+    <string name="str_storage_default">Vyměnitelný disk</string>
+    <string name="str_inner_storage">interní úložiště</string>
+    
+    
+</resources>

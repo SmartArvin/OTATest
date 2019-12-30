@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Sistem Güncellemesi</string>
+    <string name="title_local_update">Yerel Güncelleme</string>
+    <string name="title_remote_update">Ağ Güncellemesi</string>
+    <string name="title_install_reboot">Kurmak</string>
+    <string name="title_nospace_notify">Yetersiz depolama alanı</string>
+    <string name="title_remote_notify">Ağ yükseltme paketini keşfet</string>
+    <string name="title_local_notify">Yerel yükseltme paketi bulundu</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Yerel yükseltme paketini keşfedin, şimdi yükseltmek ister misiniz?</string>
+    <string name="tip_local_nofile">Yerel yükseltme paketi bulunamadı. Lütfen update.zip dosyasını USB cihazının kök dizinine yerleştirin!</string>
+    <string name="tip_force_update">Sistem %1$d saniye sonra yükseltmeye başlayacaktır, lütfen gücü kapatmayın!</string>
+    
+    <string name="tip_update_verifying">Yükseltme paketi doğrulanıyor, lütfen gücü kapatmayın!</string>
+    <string name="tip_update_verify_stop">Yükseltme paketi doğrulaması durdu!</string>
+    <string name="tip_update_verify_success">Yükseltme paketi doğrulama işlemi tamamlandı, sonra yüklenecek!</string>
+    <string name="tip_update_verify_fail">Uyarı: Yükseltme paketi doğrulaması başarısız oldu, lütfen yükseltme paketinin mevcut sistemle aynı olup olmadığını onaylayın!</string>
+    
+    <string name="tip_update_checking">Güncellemeleri kontrol ediyor ....</string>
+    <string name="tip_update_check_fail">Güncelleme hatası kontrol ediliyor!</string>
+    <string name="tip_update_version_latest">Şu anda en son sürüm!</string>
+    
+    <string name="tip_downloaded">İndirildi: </string>
+    <string name="tip_download_pause">İndirme duraklatıldı: </string>
+    <string name="tip_download_fail">Paket indirme güncellemesi başarısız oldu ....</string>
+    <string name="tip_download_stop">İndirme durduruldu ....</string>
+    <string name="tip_download_success">Yükseltme paketi indirildi. Şimdi yükseltmek ister misiniz? Yükseltme işlemi sırasında gücü kesmeyin!</string>
+    
+    <string name="tip_update_nospace">Yükseltme dosyası boyutu %1$s ve dahili depolama alanı %2$s!</string>
+    
+    <string name="tip_update_result_success">Yükseltme için tebrikler!</string>
+    <string name="tip_update_result_failed">Maalesef yükseltme başarısız oldu!</string>
+    
+    <string name="tip_remote_find_newversion">Yeni sürüm bulundu!</string>
+    <string name="tip_update_zip_path">Paket yolunu yükseltin: </string>
+    <string name="tip_update_zip_length">Paket boyutunu yükseltin: </string>
+    <string name="tip_update_zip_version">Paket sürümünü yükseltin: </string>
+    
+    <string name="tip_system_version">Geçerli sürüm: </string>
+    <string name="tip_system_builddate">Oluşturma tarihi: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Yükseltme</string>
+    <string name="str_btn_update_cancel">İptal et</string>
+    <string name="str_btn_update_notyet">Vazgeçmek</string>
+    
+    <string name="str_btn_verify_cancle">İptal et</string>
+    <string name="str_btn_verify_again">Yeniden doğrulama</string>
+    <string name="str_btn_check_again">Yeniden Test Et</string>
+    
+    <string name="str_btn_download_begin">Başlat</string>
+    <string name="str_btn_download_pause">Duraklat</string>
+    <string name="str_btn_download_goon">Devam Et</string>
+    <string name="str_btn_download_again">Yine</string>
+    <string name="str_btn_download_bg">Otomatik</string>
+    
+    <string name="str_btn_close">Kapat</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Çıkarılabilir Disk</string>
+    <string name="str_inner_storage">Dahili Depolama</string>
+    
+    
+</resources>

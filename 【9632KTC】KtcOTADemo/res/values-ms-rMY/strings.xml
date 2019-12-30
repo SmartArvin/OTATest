@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Menaik taraf sistem</string>
+    <string name="title_local_update">Tempatan peningkatan</string>
+    <string name="title_remote_update">Menaik taraf rangkaian</string>
+    <string name="title_install_reboot">Pasang</string>
+    <string name="title_nospace_notify">Ruang storan tidak mencukupi</string>
+    <string name="title_remote_notify">Temukan pakej peningkatan rangkaian</string>
+    <string name="title_local_notify">Ditemui pakej peningkatan tempatan</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Temukan pakej naik taraf tempatan, adakah anda mahu naik taraf sekarang?</string>
+    <string name="tip_local_nofile">Pakej peningkatan tempatan tidak dijumpai. Sila masukkan update.zip ke dalam direktori root peranti USB!</string>
+    <string name="tip_force_update">Sistem akan mula naik taraf selepas %1$d saat, jangan matikan kuasa!</string>
+    
+    <string name="tip_update_verifying">Pakej peningkatan sedang disahkan, sila jangan matikan kuasa!</string>
+    <string name="tip_update_verify_stop">Peningkatan pengesahan pakej telah dihentikan!</string>
+    <string name="tip_update_verify_success">Pengesahan pakej peningkatan selesai, kemudian akan dipasang!</string>
+    <string name="tip_update_verify_fail">Peringatan: Naik taraf pengesahan pakej gagal, sila sahkan sama ada pakej penambahbaikan sepadan dengan sistem semasa!</string>
+    
+    <string name="tip_update_checking">Mengesan peningkatan ....</string>
+    <string name="tip_update_check_fail">Mengesan taraf gagal!</string>
+    <string name="tip_update_version_latest">Sistem ini adalah versi terbaru!</string>
+    
+    
+    <string name="tip_downloaded">Telah dimuat turun: </string>
+    <string name="tip_download_pause">Muat turun telah dijeda: </string>
+    <string name="tip_download_fail">Muat turun fail naik taraf gagal ....</string>
+    <string name="tip_download_stop">Muat turun telah dihentikan ....</string>
+    <string name="tip_download_success">Pakej peningkatan telah dimuat turun. Adakah anda mahu naik taraf sekarang? Jangan matikan kuasa semasa proses naik taraf!</string>
+    
+    <string name="tip_update_nospace">Tingkatkan saiz fail ialah %1$s dan ruang kosong penyimpanan dalaman adalah %2$s!</string>
+    
+    <string name="tip_update_result_success">Naik taraf telah berjaya!</string>
+    <string name="tip_update_result_failed">Naik taraf gagal!</string>
+    
+    <string name="tip_remote_find_newversion">Menemukan versi baru!</string>
+    <string name="tip_update_zip_path">Laluan pakej naik taraf: </string>
+    <string name="tip_update_zip_length">Saiz pakej naik taraf: </string>
+    <string name="tip_update_zip_version">Naik taraf versi pakej: </string>
+    
+    
+    <string name="tip_system_version">Versi semasa: </string>
+    <string name="tip_system_builddate">Tarikh bina: </string>
+    
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Naik taraf</string>
+    <string name="str_btn_update_cancel">Cancel</string>
+    <string name="str_btn_update_notyet">Matikan</string>
+    
+    <string name="str_btn_verify_cancle">Cancel</string>
+    <string name="str_btn_verify_again">Semakan semula</string>
+    <string name="str_btn_check_again">Semula</string>
+    
+    <string name="str_btn_download_begin">Mula</string>
+    <string name="str_btn_download_pause">Jeda</string>
+    <string name="str_btn_download_goon">Teruskan</string>
+    <string name="str_btn_download_again">Lagi</string>
+    <string name="str_btn_download_bg">Automatik</string>
+    
+    <string name="str_btn_close">Matikan</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Diskaun Disk</string>
+    <string name="str_inner_storage">Storan Dalaman</string>
+    
+    
+</resources>

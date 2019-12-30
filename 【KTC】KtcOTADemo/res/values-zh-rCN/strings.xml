@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- title information -->
+    <string name="title_system_update">系统升级</string>
+    <string name="title_local_update">本地升级</string>
+    <string name="title_remote_update">网络升级</string>
+    <string name="title_install_reboot">安装升级</string>
+    <string name="title_nospace_notify">存储空间不足</string>
+    <string name="title_remote_notify">发现网络升级包</string>
+    <string name="title_local_notify">发现本地升级包</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">发现本地升级包，是否立即升级？</string>
+    <string name="tip_local_nofile">未发现本地升级包，请将update.zip升级包放入USB设备根目录!</string>
+    <string name="tip_force_update">系统将在%1$d秒后启动升级，请勿关闭电源!</string>
+    
+    <string name="tip_update_verifying">升级包正在进行校验，请勿关闭电源!</string>
+    <string name="tip_update_verify_stop">升级包校验已停止!</string>
+    <string name="tip_update_verify_success">升级包校验完成，即将开始升级!</string>
+    <string name="tip_update_verify_fail">警告：软件升级包校验失败,请确认升级包与当前软件系统是否匹配!</string>
+    
+    <string name="tip_update_checking">正在检测更新....</string>
+    <string name="tip_update_check_fail">检测更新失败!</string>
+    <string name="tip_update_version_latest">当前已是最新版本!</string>
+    
+    <string name="tip_downloaded">已下载： </string>
+    <string name="tip_download_pause">下载已暂停： </string>
+    <string name="tip_download_fail">升级包下载失败....</string>
+    <string name="tip_download_stop">下载已终止....</string>
+    <string name="tip_download_success">升级包已下载完成，是否立即升级？ 升级过程请勿断电！</string>
+    
+    <string name="tip_update_nospace">升级文件大小为 %1$s , 内部存储可用空间为 %2$s !  </string>
+    <string name="tip_update_result_success">恭喜升级成功!</string>
+    <string name="tip_update_result_failed">对不起升级失败!</string>
+    
+    <string name="tip_remote_find_newversion">发现新版本!</string>
+    <string name="tip_update_zip_path">升级包路径： </string>
+    <string name="tip_update_zip_length">升级包大小： </string>
+    <string name="tip_update_zip_version">升级包版本： </string>
+    
+    <string name="tip_system_version">当前版本： </string>
+    <string name="tip_system_builddate">发布时间： </string>
+    
+
+    <!-- button infomation -->
+    <string name="str_btn_update_now">立即升级</string>
+    <string name="str_btn_update_cancel">取消升级</string>
+    <string name="str_btn_update_notyet">暂不升级</string>
+    
+    <string name="str_btn_verify_cancle">取消校验</string>
+    <string name="str_btn_verify_again">重新校验</string>
+    <string name="str_btn_check_again">重新检测</string>
+    
+    <string name="str_btn_download_begin">开始下载</string>
+    <string name="str_btn_download_pause">暂停下载</string>
+    <string name="str_btn_download_goon">继续下载</string>
+    <string name="str_btn_download_again">重新下载</string>
+    <string name="str_btn_download_bg">后台下载</string>
+    
+    <string name="str_btn_close">关闭</string>
+    
+
+    <!-- other info -->
+    <string name="str_storage_default">可移动磁盘</string>
+    <string name="str_inner_storage">内部存储</string>
+    
+
+</resources>

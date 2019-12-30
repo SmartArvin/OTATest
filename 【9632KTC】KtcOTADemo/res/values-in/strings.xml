@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Peningkatan Sistem</string>
+    <string name="title_local_update">Pembaruan Lokal</string>
+    <string name="title_remote_update">Peningkatan Jaringan</string>
+    <string name="title_install_reboot">Instal</string>
+    <string name="title_nospace_notify">Ruang penyimpanan tidak mencukupi</string>
+    <string name="title_remote_notify">Temukan paket peningkatan jaringan</string>
+    <string name="title_local_notify">Paket pembaruan lokal yang ditemukan</string>
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Temukan paket pemutakhiran lokal, apakah Anda ingin memutakhirkan sekarang?</string>
+    <string name="tip_local_nofile">Paket peningkatan lokal tidak ditemukan. Masukkan pembaruan.zip ke direktori root perangkat USB!</string>
+    <string name="tip_force_update">Sistem akan mulai memutakhirkan setelah %1$d detik, tolong jangan matikan daya!</string>
+    
+    <string name="tip_update_verifying">Paket peningkatan sedang diverifikasi, jangan matikan daya!</string>
+    <string name="tip_update_verify_stop">Tingkatkan verifikasi paket telah berhenti!</string>
+    <string name="tip_update_verify_success">Verifikasi paket pemutakhiran selesai, maka akan menginstal!</string>
+    <string name="tip_update_verify_fail">Peringatan: Upgrade paket verifikasi gagal, harap konfirmasi apakah paket upgrade cocok dengan sistem saat ini!</string>
+    
+    <string name="tip_update_checking">Memeriksa pembaruan ....</string>
+    <string name="tip_update_check_fail">Memeriksa kegagalan pembaruan!</string>
+    <string name="tip_update_version_latest">Sistem saat ini adalah versi terbaru!</string>
+    
+    <string name="tip_downloaded">Diunduh: </string>
+    <string name="tip_download_pause">Unduhan telah dijeda: </string>
+    <string name="tip_download_fail">Unduhan paket upgrade gagal ....</string>
+    <string name="tip_download_stop">Unduhan telah dihentikan ....</string>
+    <string name="tip_download_success">Paket peningkatan telah diunduh. Apakah Anda ingin meningkatkan sekarang? Jangan matikan selama proses pemutakhiran!</string>
+    
+    <string name="tip_update_nospace">Tingkatkan ukuran file adalah %1$s dan ruang kosong penyimpanan internal adalah %2$s!</string>
+    <string name="tip_update_result_success">Selamat atas peningkatan!</string>
+    <string name="tip_update_result_failed">Pembaruan maaf gagal!</string>
+    
+    <string name="tip_remote_find_newversion">Versi baru telah ditemukan!</string>
+    <string name="tip_update_zip_path">Tingkatkan jalur paket: </string>
+    <string name="tip_update_zip_length">Tingkatkan ukuran paket: </string>
+    <string name="tip_update_zip_version">Tingkatkan versi paket: </string>
+    
+    <string name="tip_system_version">Versi saat ini: </string>
+    <string name="tip_system_builddate">Tanggal pembuatan: </string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Tingkatkan</string>
+    <string name="str_btn_update_cancel">Batalkan</string>
+    <string name="str_btn_update_notyet">Tutup</string>
+    
+    <string name="str_btn_verify_cancle">Batalkan</string>
+    <string name="str_btn_verify_again">Verifikasi ulang</string>
+    <string name="str_btn_check_again">Ulangi</string>
+    
+    <string name="str_btn_download_begin">Mulai</string>
+    <string name="str_btn_download_pause">Jeda</string>
+    <string name="str_btn_download_goon">Lanjutkan</string>
+    <string name="str_btn_download_again">Lagi</string>
+    <string name="str_btn_download_bg">Otomatis</string>
+    
+    <string name="str_btn_close">Tutup</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Removable Disk</string>
+    <string name="str_inner_storage">Penyimpanan Internal</string>
+
+
+</resources>

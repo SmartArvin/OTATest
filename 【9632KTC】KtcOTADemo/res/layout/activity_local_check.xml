@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/android.systemupdate.service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="75dp"
+    android:orientation="vertical" 
+    android:background="@drawable/main_background"
+    >
+
+    <RelativeLayout 
+        android:id="@+id/local_check_head_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        >
+        <ImageView 
+	        android:id="@+id/local_check_img_left"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/arrow_left"
+	        />
+	    
+	    <TextView 
+		    android:id="@+id/local_check_tip"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:layout_toRightOf="@+id/local_check_img_left"
+		    android:layout_marginLeft="43dp"
+		    android:text="@string/title_local_update"
+		    android:textSize="32sp"
+		    android:textColor="@android:color/white"
+		    />
+    </RelativeLayout>
+    
+    
+    
+    
+    <!-- ota information layout -->
+    <RelativeLayout 
+        android:id="@+id/local_check_ota_detail_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/local_check_head_rl"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+	    <ImageView 
+	        android:id="@+id/local_check_ota_img"
+	        android:layout_width="220dp"
+	        android:layout_height="128dp"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/rotating"
+	        />
+        
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/local_check_ota_img"
+	        android:layout_centerVertical="true"
+	        android:orientation="vertical"
+	        >
+	        <com.ktc.ota.views.MarqueeTextView
+		        android:id="@+id/local_check_ota_text_path"
+		        android:layout_width="350dp"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true"
+		        android:ellipsize="marquee"
+		        android:marqueeRepeatLimit="marquee_forever"
+		        android:text="@string/tip_update_zip_path"
+		        android:textColor="#ffffffff"
+		        android:textSize="28sp"/>
+	        
+	        <com.ktc.ota.views.MarqueeTextView
+		        android:id="@+id/local_check_ota_text_size"
+		        android:layout_width="350dp"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true"
+		        android:ellipsize="marquee"
+		        android:marqueeRepeatLimit="marquee_forever"
+		        android:text="@string/tip_update_zip_length"
+		        android:textColor="#ffffffff"
+		        android:textSize="28sp"/>
+	    </LinearLayout>
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/local_check_ota_text_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/local_check_ota_detail_rl"
+        android:layout_alignLeft="@+id/local_check_ota_detail_rl"
+        android:layout_alignRight="@+id/local_check_ota_detail_rl"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp" />
+    
+    
+
+    <!-- for button rl -->
+    <LinearLayout
+        android:id="@+id/local_check_btn_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/local_check_btn_cancel"
+            android:layout_width="200dp"
+        	android:layout_height="80dp"
+        	android:paddingLeft="20dp"
+       	    android:paddingRight="20dp"
+        	android:singleLine="true"
+        	android:marqueeRepeatLimit="marquee_forever"
+        	android:ellipsize="marquee"
+        	android:text="@string/str_btn_update_now"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:background="@drawable/selector_btn" />
+
+        <com.ktc.ota.views.RoundProgressBar
+            android:id="@+id/local_check_progress"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginRight="95dp"
+            android:max="100"
+            android:progress="0"
+            android_custom:roundColor="#70FFFFFF"
+            android_custom:roundProgressColor="#FFFFFFFF"
+            android_custom:roundWidth="2dip"
+            android_custom:textColor="#FFFFFF"
+            android_custom:textIsDisplayable="true"
+            android_custom:textSize="20dip" />
+
+        <Button
+            android:id="@+id/local_check_btn_close"
+            android:layout_width="200dp"
+        	android:layout_height="80dp"
+        	android:paddingLeft="20dp"
+       	    android:paddingRight="20dp"
+        	android:singleLine="true"
+        	android:marqueeRepeatLimit="marquee_forever"
+        	android:ellipsize="marquee"
+        	android:text="@string/str_btn_update_notyet"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:background="@drawable/selector_btn" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

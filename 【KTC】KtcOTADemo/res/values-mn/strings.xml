@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- title information -->
+    <string name="title_system_update">Систем сайжруулах</string>
+    <string name="title_local_update">Дотоод сайжруулалт</string>
+    <string name="title_remote_update">Сүлжээ сайжруулах</string>
+    <string name="title_install_reboot">Суулгах</string>
+    <string name="title_nospace_notify">Багтаамж хүрэлцээгүй байна</string>
+    <string name="title_remote_notify">Сүлжээг сайжруулах багцыг нээх</string>
+    <string name="title_local_notify">Дотоод сайжруулалтын багц олдлоо</string>
+    
+    
+    <!-- tip infomation -->
+    <string name="tip_local_hasfile">Дотоод сайжруулалтын багцыг нээх, та одоо сайжруулах уу?</string>
+    <string name="tip_local_nofile">Дотоод сайжруулалтын багц олдсонгүй. USB төхөөрөмжөөс оруулна уу!</string>
+    <string name="tip_force_update">Сайжруулалт %1$d секундын дараа эхлэнэ, төхөөрөмжөө битгий унтраагаарай</string>
+    
+    <string name="tip_update_verifying">Сайжруулалтын багц шалгагдлаа, төхөөрөмжөө битгий унтраагарай</string>
+    <string name="tip_update_verify_stop">Сайжруулалтын багцын шалгалт зогслоо</string>
+    <string name="tip_update_verify_success">Сайжруулалтын багцын шалгалт гүйцэтгэгдлээ. Дараа нь суурилуулалт эхлэнэ</string>
+    <string name="tip_update_verify_fail">Анхаар: Сайжруулатын багцын шалгалт амжилтгүй боллоо, одоогийн систем тохирох эсэхийг шалгана уу!</string>
+    
+    <string name="tip_update_checking">Сайжруулалтыг шалгаж байна.....</string>
+    <string name="tip_update_check_fail">Сайжруулалтыг шалгах процесс амжилтгүй боллоо</string>
+    <string name="tip_update_version_latest">Одоогийн систем нь хамгийн сүүлийн үеийн систем байна!</string>
+    
+    <string name="tip_downloaded">Татагдсан</string>
+    <string name="tip_download_pause">Татан авалт түр зогссон байна</string>
+    <string name="tip_download_fail">Сайжруулалтын багцын татан авалт амжилтгүй боллоо</string>
+    <string name="tip_download_stop">Татан авалт зогслоо</string>
+    <string name="tip_download_success">Сайжруулалтын багц татагдсан байна. Та одоо сайжруулалтыг эхлүүлэх үү? Төхөөрөмжөө бүү унтраагаарай!</string>
+    
+    <string name="tip_update_nospace">Сайжруулалтын файлын хэмжээ %1$s ба дотоод чөлөөт багтаамж %2$s байна.</string>
+    
+    <string name="tip_update_result_success">Сайжруулалт амжилттай хийгдлээ</string>
+    <string name="tip_update_result_failed">Уучлаарай, сайжруулалт амжилтгүй боллоо</string>
+    
+    <string name="tip_remote_find_newversion">Шинэ хувилбар олдлоо</string>
+    <string name="tip_update_zip_path">Сайжруулалтын багцын зам</string>
+    <string name="tip_update_zip_length">Сайжруулалтын багцын хэмжээ</string>
+    <string name="tip_update_zip_version">Сайжруулалтын багцын хувилбар</string>
+    
+    <string name="tip_system_version">Одоогийн хувилбар</string>
+    <string name="tip_system_builddate">Хийгдсэн огноо:</string>
+    
+    <!-- button infomation -->
+    <string name="str_btn_update_now">Сайжруулалт</string>
+    <string name="str_btn_update_cancel">Цуцлах</string>
+    <string name="str_btn_update_notyet">Хаах</string>
+    
+    <string name="str_btn_verify_cancle">Цуцлах</string>
+    <string name="str_btn_verify_again">Дахин шалгах</string>
+    <string name="str_btn_check_again">Дахин турших</string>
+    
+    <string name="str_btn_download_begin">Эхлэх</string>
+    <string name="str_btn_download_pause">Түр зогсоох</string>
+    <string name="str_btn_download_goon">Үргэлжлүүлэх</string>
+    <string name="str_btn_download_again">Дахих</string>
+    <string name="str_btn_download_bg">Авто</string>
+    
+    <string name="str_btn_close">Хаах</string>
+    
+    <!-- other info -->
+    <string name="str_storage_default">Зөөврийн төхөөрөмж</string>
+    <string name="str_inner_storage">Дотоод багтаамж</string>
+
+</resources>
